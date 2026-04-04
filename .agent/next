@@ -1,4 +1,3 @@
-Improve lib/trust.ts — implement computeTrust with exponential decay, recordEvent, getTrustLevel. Make it a real working module with proper TypeScript types.
 Improve lib/crystal.ts — implement addInsight, lookupInsight, crystallizeInsight (fluid to solid over time), getInsightStrength. Include the Accumulation Theorem: I = M * B^alpha * Q^beta.
 Improve lib/dead-reckoning.ts — implement the full pipeline: compassBearing, deadReckon, workingTheory, groundTruth, publish. Each function returns the next cognitive stage.
 Improve lib/learning.ts — implement extractLessons (from captain-log), shareInsight (creates crystal), buildOnPriorWork (checks existing), detectDiminishingReturns (flags repetitive patterns).
