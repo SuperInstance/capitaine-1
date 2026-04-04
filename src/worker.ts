@@ -119,14 +119,19 @@ async function writeCaptainLog(entry: string, token: string, repo: string): Prom
 async function detectMode(token: string, repo: string): Promise<'captain' | 'helm'> {
   try {
     const commits = await ghGet(`/repos/${repo}/commits?per_page=5`, token);
-    // If most recent commits are from non-agent authors in last hour, human is at helm
-    const oneHourAgo = Date.now() - 3600000;
+    const threeHoursAgo = Date.now() - 10800000;
     const humanCommits = commits.filter((c: any) => {
-      const author = c.commit.author.name.toLowerCase();
-      if (author.includes('agent') || author.includes('bot')) return false;
-      return new Date(c.commit.author.date).getTime() > oneHourAgo;
+      const author = (c.commit.author.name || '').toLowerCase();
+      const login = (c.author?.login || '').toLowerCase();
+      // Agent commits have these patterns
+      if (author.includes('agent') || author.includes('bot') || author.includes('argo')) return false;
+      if (login.includes('agent') || login.includes('bot')) return false;
+      // Commit messages from agent beats contain heartbeat markers
+      const msg = (c.commit.message || '').toLowerCase();
+      if (msg.includes('heartbeat') || msg.includes('queue:') || msg.includes('captain') || msg.includes('log:')) return false;
+      return new Date(c.commit.author.date).getTime() > threeHoursAgo;
     });
-    return humanCommits.length >= 2 ? 'helm' : 'captain';
+    return humanCommits.length >= 3 ? 'helm' : 'captain';
   } catch { return 'captain'; }
 }
 

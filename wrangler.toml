@@ -6,6 +6,10 @@ account_id = "049ff5e84ecf636b53b162cbb580aae6"
 [triggers]
 crons = ["*/15 * * * *"]
 
+[vars]
+OWNER = "Lucineer"
+REPO = "cocapn-vessel"
+
 [[kv_namespaces]]
 binding = "STATE_KV"
 id = "26728fd36ca3472c941bc4e8d58cec62"
