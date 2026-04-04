@@ -4,4 +4,3 @@ Create the file lib/dead-reckoning.ts implementing the DR pipeline: compassBeari
 Create the file lib/learning.ts implementing the learning engine: extractLessons, shareInsight, buildOnPriorWork, detectDiminishingReturns.  
 Create the file lib/forgiveness.ts implementing the forgiveness function: computeForgiveness, repairTrust, assessRemorse, applyForgivenessCurve.  
 Create the file lib/discovery.ts implementing agent discovery: scanOrg, readAgentIdentity, buildFleetRoster.
-```
