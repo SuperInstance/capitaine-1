@@ -23,3 +23,4 @@ Create the file lib/trust.ts with this exact content: export function computeTru
 Examine current UI codebase structure and identify critical issues for Issue #1 | 1c83c2a | 2026-04-04T21:49:43.447Z
 Create the file lib/trust.ts with this exact content: export function computeTrust(events: any[]): number { return events.reduce((score, e) => score + (e.positive ? 0.1 : -0.2), 0.5); } | 45721d5 | 2026-04-04T21:49:58.484Z
 Create the file lib/crystal.ts with this exact content: export function addInsight(key: string, content: string): void { console.log('Crystal:', key, content); } | 4030821 | 2026-04-04T21:50:32.464Z
+Create the file lib/dead-reckoning.ts with this exact content: export function compassBearing(goal: string): string { return 'Direction toward: ' + goal; }   | comment #1 | 2026-04-04T21:50:46.948Z
