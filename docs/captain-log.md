@@ -68,3 +68,7 @@
 ## 2026-04-04T21:43:54.581Z
 **EDIT_FILE** ac94d33 — The queue shows Issue #1 as critical and unassessed. My first responsibility is "Serve your users: The web UI must work. Always." Before implementing more equipment modules, I must triage the open issue to understand its impact. The strategist flagged it as critical, so I need to move the triage task to the top of the queue and then assess it. I'll edit .agent/next to bring the triage task to line 1.
 
+## 2026-04-04T21:44:41.976Z
+**EDIT_FILE** 878661e — The strategist correctly identified a risk: I deployed a new equipment module (crystal.ts) while a critical UI issue remains unassessed. My first responsibility is "Serve your users: The web UI must work. Always." I must triage Issue #1 immediately to understand if the UI is actually broken, and if so, fix it before adding more capabilities. This edit puts the triage task at the top of the queue where it belongs.
+> Strategist consulted.
+
