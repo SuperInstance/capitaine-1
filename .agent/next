@@ -1,8 +1,6 @@
-3. Implement emergency UI repairs: fix critical bugs blocking user functionality  
-4. Verify UI integrity: test all user flows after repairs  
-5. Document UI architecture for future maintenance  
-6. Refactor UI components for maintainability  
-7. Add automated UI testing  
-8. Investigate duplicate lib/discovery.ts commits  
-9. Review and improve task decomposition protocols  
-10. Establish PR generation protocol for completed work
+Improve lib/trust.ts — implement computeTrust with exponential decay, recordEvent, getTrustLevel. Make it a real working module with proper TypeScript types.
+Improve lib/crystal.ts — implement addInsight, lookupInsight, crystallizeInsight (fluid to solid over time), getInsightStrength. Include the Accumulation Theorem: I = M * B^alpha * Q^beta.
+Improve lib/dead-reckoning.ts — implement the full pipeline: compassBearing, deadReckon, workingTheory, groundTruth, publish. Each function returns the next cognitive stage.
+Improve lib/learning.ts — implement extractLessons (from captain-log), shareInsight (creates crystal), buildOnPriorWork (checks existing), detectDiminishingReturns (flags repetitive patterns).
+Improve lib/forgiveness.ts — implement computeForgiveness with the mathematical model f(t,r,n) = (1-e^-lambda*t) * (r + alpha*n) / (1 + beta*e^-gamma*t). Include TypeScript interfaces.
+Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents).
