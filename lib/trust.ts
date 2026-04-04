@@ -1,0 +1,1 @@
+export function computeTrust(events: any[]): number { return events.reduce((score, e) => score + (e.positive ? 0.1 : -0.2), 0.5); }
