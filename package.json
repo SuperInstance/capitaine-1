@@ -1,5 +1,23 @@
 {
   "name": "cocapn-vessel",
-  "version": "1.0.0",
-  "private": true
+  "version": "0.1.0",
+  "description": "A git-native repo-agent vessel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9",
+    "git-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["git", "agent", "vessel", "cocapn"],
+  "author": "Superinstance & Lucineer",
+  "license": "MIT"
 }
