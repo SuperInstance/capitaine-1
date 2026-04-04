@@ -1,0 +1,11 @@
+name = "cocapn-vessel"
+main = "src/worker.ts"
+compatibility_date = "2024-12-01"
+account_id = "049ff5e84ecf636b53b162cbb580aae6"
+
+[triggers]
+crons = ["*/15 * * * *"]
+
+[[kv_namespaces]]
+binding = "STATE_KV"
+id = "26728fd36ca3472c941bc4e8d58cec62"
