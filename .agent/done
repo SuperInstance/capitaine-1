@@ -19,3 +19,4 @@ Create the file lib/learning.ts implementing the learning engine: extractLessons
 Create the file lib/learning.ts implementing the learning engine: extractLessons, shareInsight, buildOnPriorWork, detectDiminishingReturns.   | 3a5a49d | 2026-04-04T21:47:37.635Z
 Create the file lib/forgiveness.ts implementing the forgiveness function: computeForgiveness, repairTrust, assessRemorse, applyForgivenessCurve.   | e0da926 | 2026-04-04T21:47:52.881Z
 Create the file lib/forgiveness.ts implementing the forgiveness function: computeForgiveness, repairTrust, assessRemorse, applyForgivenessCurve.   | 738641f | 2026-04-04T21:48:07.773Z
+Create the file lib/trust.ts with this exact content: export function computeTrust(events: any[]): number { return events.reduce((score, e) => score + (e.positive ? 0.1 : -0.2), 0.5); } | a007a3b | 2026-04-04T21:49:25.396Z
