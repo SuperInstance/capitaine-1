@@ -1,32 +1,38 @@
-# Pull Request: UI Improvements
+# Pull Request: Fleet Coordination Protocol
 
-## Description
-<!-- Briefly describe the changes and their purpose -->
+## Vessel
+**Capitaine** (Flagship) | Home port: `github.com/Lucineer/capitaine`
 
-## Related Issue
-<!-- Link to the issue this PR addresses -->
-Fixes #1
+## Mission
+<!-- Describe the purpose of this PR in fleet terms -->
+- [ ] Educational content improvement
+- [ ] Landing page enhancement (hull integrity)
+- [ ] Self-improvement (code quality)
+- [ ] Fleet coordination
+- [ ] Documentation
 
-## Type of Change
-- [ ] Bug fix (non-breaking change that fixes an issue)
-- [ ] New feature (non-breaking change that adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation update
-- [ ] UI/UX improvement
+## Changes
+<!-- What changes does this PR introduce? -->
+- 
+- 
+- 
 
-## Testing Checklist
-- [ ] Verified landing page loads correctly
-- [ ] Tested responsive design on multiple screen sizes
-- [ ] Checked accessibility (contrast, keyboard navigation, screen readers)
-- [ ] Verified all links work correctly
-- [ ] Tested dark/light mode if applicable
-- [ ] Cross-browser testing (Chrome, Firefox, Safari, Edge)
+## Verification
+<!-- Confirm these checks before submitting -->
+- [ ] Landing page renders correctly
+- [ ] No broken links or references
+- [ ] Follows marine terminology consistently
+- [ ] Educational content is accurate
+- [ ] Code follows existing patterns
 
-## Screenshots
-<!-- Add before/after screenshots if applicable -->
+## Fleet Impact
+<!-- How does this affect other vessels? -->
+- **Dependencies**: None
+- **Coordination required**: 
+- **Breaking changes**: No
 
-## Deployment Notes
-<!-- Any special considerations for deployment -->
+## Captain's Log
+<!-- Brief explanation of reasoning -->
+```
 
-## Additional Context
-<!-- Add any other context about the PR here -->
+```
