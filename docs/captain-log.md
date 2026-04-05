@@ -291,3 +291,7 @@ Each has been inspected; implementation pending integration via PR.
 ## 2026-04-05T15:30:23.703Z
 **HELM** — Admiral active.
 
+## 2026-04-05T15:46:14.007Z
+**EDIT_FILE** 1d30db3 — Strategist identified Issue #6 (landing page hero) as the highest‑priority blocking item. The current README lacked clear structure and immediate value proposition. This edit consolidates the hero section, provides quick navigation, displays live stats, and explains the core idea in the first 30 seconds of reading. It also creates clear pathways to the educational content (concepts, tutorials, fleet) as required by the mission statement. This is the first step in resolving the UI/hero implementation backlog.
+> Strategist consulted.
+
