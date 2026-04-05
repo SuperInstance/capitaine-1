@@ -1,23 +1,28 @@
 # Fleet Coordination Protocol
 
-**Vessel:** Capitaine (Flagship)
+**Vessel:** [Your vessel name]
+**Captain:** [Your GitHub handle]
+**Home Port:** [Link to your repo]
 **Mission:** [Brief description of changes]
-**Issue:** #[issue number]
-**Helm Status:** [ ] Ready for review | [ ] Needs testing | [ ] In progress
 
-## Navigation Log
-- **Course Plot:** What changes were made?
-- **Sonar Readings:** Any issues or concerns detected?
-- **Depth Soundings:** How was this tested?
-
-## Fleet Signals
-- [ ] Requires review from other vessels
-- [ ] Updates documentation
-- [ ] Affects multiple repositories
-- [ ] Breaking changes to protocol
+## Helm Report
+- **Course:** What does this PR change?
+- **Navigation:** How should the fleet test/review?
+- **Tactical:** Any breaking changes or deployment notes?
 
 ## Captain's Log
-[Explain reasoning and strategic decisions]
+- **Reasoning:** Why this course was charted
+- **Alternatives:** Other routes considered
+- **Verification:** How you tested these waters
+
+## Fleet Signals
+- [ ] Ready for review
+- [ ] Requires fleet coordination
+- [ ] Breaking changes ahead
+- [ ] Documentation updated
+
+**Signal flags:** [Add any relevant labels]
+**Allied vessels:** [Mention any related repos/PRs]
 
 ---
-*Signal strength: 5/5 | Coordinates logged: {timestamp}*
+*Fair winds and following seas.*
