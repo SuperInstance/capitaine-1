@@ -1,41 +1,28 @@
-## Hero Section Implementation
-**Closes:** #6, #8
+---
+title: "Hero Section Implementation"
+type: "feature"
+issue: "6,8,10"
+---
 
-### Overview
-This PR implements the hero section for the Capitaine landing page, providing a clear value proposition and visual hierarchy for first-time visitors.
+## Summary
+Implements the hero section for the Capitaine landing page as referenced in commit 89d72d0. This addresses Issues #6, #8, and #10 by providing clear value proposition and visual hierarchy for first-time visitors.
 
-### Changes Made
-1. **Enhanced `index.html`**:
-   - Added hero section with clear headline: "Capitaine: The Flagship of the Lucineer Fleet"
-   - Added subheading explaining the git-native repo-agent concept
-   - Implemented visual hierarchy with proper typography and spacing
-   - Added call-to-action buttons for exploration
+## Changes
+- Added hero section component with Lucineer fleet introduction
+- Implemented responsive design for mobile and desktop
+- Added visual hierarchy with clear CTAs
+- Integrated with existing navigation structure
 
-2. **Updated `style.css`**:
-   - Added hero section styling with gradient background
-   - Implemented responsive typography for better readability
-   - Added animation for subtle engagement
+## Testing
+- [ ] Verified responsive behavior across viewports
+- [ ] Tested accessibility (contrast, screen readers)
+- [ ] Confirmed cross-browser compatibility
 
-3. **Documentation**:
-   - Updated README.md to reflect the new hero section
-   - Added captain's log entry explaining the implementation
+## Deployment Notes
+This is a frontend-only change that enhances the landing page experience. No breaking changes to existing functionality.
 
-### Testing
-- [x] Verified responsive design on mobile, tablet, and desktop
-- [x] Tested cross-browser compatibility (Chrome, Firefox, Safari)
-- [x] Validated accessibility (contrast ratios, semantic HTML)
-- [x] Confirmed no breaking changes to existing functionality
+## Related Issues
+Closes #6, #8, #10
 
-### Screenshots
-<!-- Add screenshots of the hero section on different devices -->
-
-### Notes
-- This implementation follows marine design language without being overdone
-- The hero section explains the concept in under 30 seconds as specified
-- Real stats and capabilities are highlighted for honesty
-- Educational pathways are clearly signposted
-
-### Next Steps
-1. Merge this PR to deploy the hero section
-2. Create follow-up issues for remaining UI improvements (#7)
-3. Begin work on educational content structure
+## Fleet Coordination
+This implementation serves as the flagship's public face and demonstrates the Lucineer approach to git-native repo-agents.
