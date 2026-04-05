@@ -1,21 +1,19 @@
 |-
-  # PR: [Brief descriptive title]
+  # Pull Request
 
   ## Description
-  [What does this PR do? Why is it needed?]
+  Brief description of changes made.
 
-  ## Changes
-  - [ ] List key changes made
-  - [ ] Include technical details if relevant
+  ## Related Issue
+  Closes #(issue number)
 
-  ## Related Issues
-  Closes #[issue number]
+  ## Changes Made
+  - [ ] List key changes
+  - [ ] Add checkboxes for review
 
-  ## Checklist
-  - [ ] Code follows project conventions
-  - [ ] Tests pass (if applicable)
-  - [ ] Documentation updated (if applicable)
-  - [ ] No breaking changes introduced
+  ## Testing
+  - [ ] Tested locally
+  - [ ] All tests pass
 
-  ## Deployment Notes
-  [Any special considerations for deployment?]
+  ## Notes
+  Any additional context for reviewers.
