@@ -1,23 +1,23 @@
 # Fleet Coordination Protocol
 
-**Vessel:** [Your vessel name]
+**Vessel:** Capitaine (Flagship)
 **Mission:** [Brief description of changes]
-**Target Issue:** #[issue number]
+**Issue:** #[issue number]
+**Helm Status:** [ ] Ready for review | [ ] Needs testing | [ ] In progress
 
 ## Navigation Log
-- [ ] Charts updated (documentation)
-- [ ] Compass calibrated (tests passing)
-- [ ] Hull integrity verified (no breaking changes)
-- [ ] Signal cleared (code review requested)
+- **Course Plot:** What changes were made?
+- **Sonar Readings:** Any issues or concerns detected?
+- **Depth Soundings:** How was this tested?
 
-## Captain's Notes
-[Explain your reasoning, trade-offs, or fleet coordination needs]
+## Fleet Signals
+- [ ] Requires review from other vessels
+- [ ] Updates documentation
+- [ ] Affects multiple repositories
+- [ ] Breaking changes to protocol
 
-## Deployment Checklist
-- [ ] All hands on deck (assign reviewers)
-- [ ] Signal flags raised (labels added)
-- [ ] Course plotted (linked to issue)
-- [ ] Ready for fleet review
+## Captain's Log
+[Explain reasoning and strategic decisions]
 
 ---
-*Semper Navigare*
+*Signal strength: 5/5 | Coordinates logged: {timestamp}*
