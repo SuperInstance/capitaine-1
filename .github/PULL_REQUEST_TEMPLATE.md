@@ -1,30 +1,41 @@
-# Fleet Coordination Protocol
+# PR: {{PR_TITLE}}
 
-**Vessel:** {{ PR_TITLE }}
-**Captain:** {{ AUTHOR }}
-**Home Port:** {{ REPOSITORY }}
-**Coordinates:** {{ BRANCH }} → main
+**Vessel:** {{VESSEL_NAME}}
+**Captain:** {{CAPTAIN_NAME}}
+**Destination:** {{TARGET_BRANCH}}
+**Origin:** {{SOURCE_BRANCH}}
 
-## Mission Briefing
-{{ DESCRIPTION }}
+## Mission Brief
+{{PR_DESCRIPTION}}
 
-## Navigation Chart
-- **Course Plotter:** {{ AUTHOR }}
-- **Helmsman:** {{ REVIEWERS }}
-- **Signal Flags:** {{ LABELS }}
+## Navigation Log
+- **Coordinates:** {{REPO_URL}}/pull/{{PR_NUMBER}}
+- **Departure:** {{CREATED_AT}}
+- **Estimated Arrival:** {{MERGE_DATE}}
 
-## Deployment Checklist
-- [ ] Hull integrity verified (no conflicts)
-- [ ] Navigation charts updated (documentation)
-- [ ] Signal flags raised (appropriate labels)
-- [ ] All hands accounted for (reviewers assigned)
-- [ ] Captain's log entry completed
+## Cargo Manifest
+**Files Modified:**
+{{FILE_LIST}}
+
+**Dependencies:**
+- Related to issue: {{ISSUE_REFERENCE}}
+- Blocks: {{BLOCKS}}
+- Blocked by: {{BLOCKED_BY}}
 
 ## Captain's Log
-{{ COMMITS }}
+{{CAPTAIN_LOG_ENTRY}}
 
-**Signal Received:** {{ CURRENT_TIMESTAMP }}
-**Next Port of Call:** {{ TARGET_BRANCH }}
+## Fleet Coordination
+- [ ] Requires review from helm
+- [ ] Requires testing in staging waters
+- [ ] Requires documentation updates
+- [ ] Will trigger deployment sequence
 
----
-*Semper Navigare — The Fleet Advances*
+## Marine Protocol Compliance
+- [ ] Follows vessel coding standards
+- [ ] Maintains backward compatibility
+- [ ] Includes appropriate tests
+- [ ] Updates documentation accordingly
+
+**Signal Flags:** {{LABELS}}
+**Weather Conditions:** {{CHANGES}} files changed, {{ADDITIONS}} additions, {{DELETIONS}} deletions
