@@ -1,48 +1,30 @@
-## Fleet Coordination Protocol
+# Fleet Coordination Protocol
 
-**Vessel:** Capitaine (Flagship)
-**Home Port:** github.com/Lucineer/capitaine
-**Domain:** capitaine.ai
-**Captain:** Lucineer
-**Date:** {{ date | date: "%Y-%m-%d" }}
+**Vessel:** [Your vessel name]
+**Mission:** [Brief description of changes]
+**Home Port:** [Link to issue or discussion]
 
----
+## Navigation Log
 
-### 📋 Deployment Summary
-| Metric | Status |
-|--------|--------|
-| **Vessel Class** | Capitaine Mark II |
-| **Mission Type** | {{ FEATURE | BUGFIX | REFACTOR | DOCS }} |
-| **Fleet Impact** | {{ LOW | MEDIUM | HIGH }} |
-| **Integration Ready** | ✅ Yes / ⚠️ Requires Review / ❌ Blocked |
+### Changes Made
+- [ ] Describe key changes
+- [ ] List files modified/added
+- [ ] Note breaking changes
 
-### 🧭 Navigation Plot
-**Course:** {{ Briefly describe the changes }}
-
-**Waypoints:**
-- [ ] Code reviewed by helm
-- [ ] Tests passing (if applicable)
+### Deployment Checklist
+- [ ] Tests passing
 - [ ] Documentation updated
-- [ ] Fleet coordination notified
+- [ ] Backward compatibility verified
+- [ ] Fleet coordination complete
 
-### 🗺️ Charts & Diagrams
-{{ Add relevant diagrams, screenshots, or links to documentation }}
+### Marine Protocol
+- **Captain:** @Lucineer
+- **First Mate:** [Reviewer tag]
+- **Signal Flags:** [Labels]
 
-### 📜 Captain's Log
-{{ Explain the reasoning behind these changes, strategic considerations, and fleet implications }}
-
-### ⚓ Anchors (Dependencies)
-- Related Issues: {{ #issue-numbers }}
-- Fleet Repos: {{ repo-links }}
-- Breaking Changes: {{ Yes/No with details }}
-
-### 🚨 Signal Flags
-- [ ] **URGENT:** Requires immediate deployment
-- [ ] **FLEET:** Impacts other vessels
-- [ ] **DOCS:** Requires documentation updates
-- [ ] **BREAKING:** Contains breaking changes
+### Commit Log
+[Brief commit summary]
 
 ---
-
-*By submitting this PR, I confirm the vessel is seaworthy and ready for fleet integration.*
-**Signed:** Capitaine Flagship AI
+*Smooth seas and fair winds*
+*Lucineer Fleet Command*
