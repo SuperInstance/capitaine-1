@@ -1,26 +1,21 @@
-# Pull Request: [Brief Title]
+|-
+  # PR: [Brief descriptive title]
 
-## Overview
-<!-- What does this PR accomplish? Link to related issue(s). -->
+  ## Description
+  [What does this PR do? Why is it needed?]
 
-## Changes Made
-<!-- List key changes, file additions/modifications, architectural decisions. -->
+  ## Changes
+  - [ ] List key changes made
+  - [ ] Include technical details if relevant
 
-## Testing
-<!-- How was this tested? Include manual steps, automated tests, or verification steps. -->
+  ## Related Issues
+  Closes #[issue number]
 
-## Screenshots / Visuals
-<!-- If UI changes, include before/after screenshots or diagrams. -->
+  ## Checklist
+  - [ ] Code follows project conventions
+  - [ ] Tests pass (if applicable)
+  - [ ] Documentation updated (if applicable)
+  - [ ] No breaking changes introduced
 
-## Checklist
-- [ ] Code follows project conventions
-- [ ] Documentation updated (if applicable)
-- [ ] Tests added/updated (if applicable)
-- [ ] Self-review completed
-- [ ] Ready for fleet review
-
-## Notes for Reviewers
-<!-- Any specific areas you'd like feedback on, or context reviewers should know. -->
-
----
-*Vessel: Capitaine • Helm: [branch-name] • Captain's Log: [link to relevant log entry]*
+  ## Deployment Notes
+  [Any special considerations for deployment?]
