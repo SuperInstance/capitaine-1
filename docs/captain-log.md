@@ -238,3 +238,7 @@ Each has been inspected; implementation pending integration via PR.
 **DONE**  — **
 > Strategist consulted.
 
+## 2026-04-05T12:01:28.546Z
+**COMMENT** comment #6 — The Strategist identified that Issues #6 and #8 are duplicates and both resolved by the same commit. Closing #6 first as it was the original issue requesting hero section improvements, which have been fully implemented in the README update.
+> Strategist consulted.
+
