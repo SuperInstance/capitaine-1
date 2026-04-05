@@ -1,29 +1,24 @@
-# Pull Request - Capitaine
+# Pull Request - Lucineer Fleet
 
-## Description
-<!-- Briefly describe the changes in this PR -->
+## Vessel: [Vessel Name]
+## Issue: Closes #[issue number]
+## Helm: [Your GitHub username]
 
-## Related Issues
-<!-- Link to issues this PR addresses (e.g., Fixes #123) -->
+### Changes
+- [ ] Documentation updated
+- [ ] Tests added/updated
+- [ ] Code follows fleet standards
 
-## Changes Made
-- [ ] 
-- [ ] 
-- [ ] 
+### Description
+Brief description of changes made. Reference specific issues addressed.
 
-## Testing
-<!-- Describe how you tested these changes -->
+### Checklist
+- [ ] Self-review completed
+- [ ] All checks passing
+- [ ] Ready for fleet review
 
-## Documentation
-- [ ] README updated
-- [ ] Code comments added/updated
-- [ ] Tutorials updated (if applicable)
+### Captain's Log
+[Optional: Add reasoning or context for changes]
 
-## Checklist
-- [ ] Code follows project conventions
-- [ ] No breaking changes
-- [ ] All tests pass
-- [ ] Documentation is updated
-
-## Captain's Log Reference
-<!-- Link to relevant captain-log entry -->
+---
+*Semper Navigare* - Always Navigating
