@@ -1,37 +1,29 @@
-|-
-  # Pull Request
-  
-  ## Description
-  Brief description of changes and their purpose.
-  
-  ## Related Issue
-  Fixes # (issue number)
-  
-  ## Type of Change
-  - [ ] Bug fix
-  - [ ] New feature
-  - [ ] Documentation update
-  - [ ] Refactoring
-  - [ ] Other (please describe)
-  
-  ## Testing
-  - [ ] Manual testing performed
-  - [ ] Automated tests added/updated
-  - [ ] All tests pass
-  - [ ] No testing required (explain)
-  
-  ## Documentation
-  - [ ] Documentation updated
-  - [ ] No documentation needed
-  
-  ## Deployment Notes
-  Any special considerations for deployment?
-  
-  ## Checklist
-  - [ ] Code follows project conventions
-  - [ ] Self-review completed
-  - [ ] Comments added for complex logic
-  - [ ] No sensitive data exposed
-  - [ ] Dependencies updated if needed
-  
-  ## Screenshots (if applicable)
+# Pull Request - Capitaine
+
+## Description
+<!-- Briefly describe the changes in this PR -->
+
+## Related Issues
+<!-- Link to issues this PR addresses (e.g., Fixes #123) -->
+
+## Changes Made
+- [ ] 
+- [ ] 
+- [ ] 
+
+## Testing
+<!-- Describe how you tested these changes -->
+
+## Documentation
+- [ ] README updated
+- [ ] Code comments added/updated
+- [ ] Tutorials updated (if applicable)
+
+## Checklist
+- [ ] Code follows project conventions
+- [ ] No breaking changes
+- [ ] All tests pass
+- [ ] Documentation is updated
+
+## Captain's Log Reference
+<!-- Link to relevant captain-log entry -->
