@@ -1,30 +1,30 @@
 # Fleet Coordination Protocol
 
-**Vessel:** [Your vessel name]
-**Mission:** [Brief description of changes]
-**Home Port:** [Link to issue or discussion]
+**Vessel:** {{ PR_TITLE }}
+**Captain:** {{ AUTHOR }}
+**Home Port:** {{ REPOSITORY }}
+**Coordinates:** {{ BRANCH }} → main
 
-## Navigation Log
+## Mission Briefing
+{{ DESCRIPTION }}
 
-### Changes Made
-- [ ] Describe key changes
-- [ ] List files modified/added
-- [ ] Note breaking changes
+## Navigation Chart
+- **Course Plotter:** {{ AUTHOR }}
+- **Helmsman:** {{ REVIEWERS }}
+- **Signal Flags:** {{ LABELS }}
 
-### Deployment Checklist
-- [ ] Tests passing
-- [ ] Documentation updated
-- [ ] Backward compatibility verified
-- [ ] Fleet coordination complete
+## Deployment Checklist
+- [ ] Hull integrity verified (no conflicts)
+- [ ] Navigation charts updated (documentation)
+- [ ] Signal flags raised (appropriate labels)
+- [ ] All hands accounted for (reviewers assigned)
+- [ ] Captain's log entry completed
 
-### Marine Protocol
-- **Captain:** @Lucineer
-- **First Mate:** [Reviewer tag]
-- **Signal Flags:** [Labels]
+## Captain's Log
+{{ COMMITS }}
 
-### Commit Log
-[Brief commit summary]
+**Signal Received:** {{ CURRENT_TIMESTAMP }}
+**Next Port of Call:** {{ TARGET_BRANCH }}
 
 ---
-*Smooth seas and fair winds*
-*Lucineer Fleet Command*
+*Semper Navigare — The Fleet Advances*
