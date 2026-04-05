@@ -70,3 +70,7 @@ Each has been inspected; implementation pending integration via PR.
 ## 2026-04-04T23:30:22.608Z
 **HELM** — Admiral active.
 
+## 2026-04-05T00:00:52.872Z
+**EDIT_FILE** 85fa0f2 — The landing page is the hull — it must make the idea immediately clear and invite exploration. Current README was functional but not yet beautiful or fully educational. This edit improves visual structure, adds concrete navigation, explains the fleet, and maintains honest stats. It serves both newcomers and returning visitors.
+> Strategist consulted.
+
