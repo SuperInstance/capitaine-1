@@ -1,38 +1,34 @@
-# Pull Request: Fleet Coordination Protocol
-
-## Vessel
-**Capitaine** (Flagship) | Home port: `github.com/Lucineer/capitaine`
-
-## Mission
-<!-- Describe the purpose of this PR in fleet terms -->
-- [ ] Educational content improvement
-- [ ] Landing page enhancement (hull integrity)
-- [ ] Self-improvement (code quality)
-- [ ] Fleet coordination
-- [ ] Documentation
-
-## Changes
-<!-- What changes does this PR introduce? -->
-- 
-- 
-- 
-
-## Verification
-<!-- Confirm these checks before submitting -->
-- [ ] Landing page renders correctly
-- [ ] No broken links or references
-- [ ] Follows marine terminology consistently
-- [ ] Educational content is accurate
-- [ ] Code follows existing patterns
-
-## Fleet Impact
-<!-- How does this affect other vessels? -->
-- **Dependencies**: None
-- **Coordination required**: 
-- **Breaking changes**: No
-
-## Captain's Log
-<!-- Brief explanation of reasoning -->
-```
-
-```
+|-
+  # Fleet Coordination Protocol
+  
+  ## Vessel Identification
+  - **Vessel:** Capitaine (Flagship)
+  - **Home Port:** github.com/Lucineer/capitaine
+  - **Captain:** Lucineer
+  - **Date:** {{ date | date: "%Y-%m-%d" }}
+  
+  ## Mission Briefing
+  **Issue Reference:** #{{ ISSUE_NUMBER }}
+  **Objective:** {{ BRIEF_DESCRIPTION }}
+  
+  ## Changes Deployed
+  <!-- List key changes with commit references -->
+  - `{{ COMMIT_HASH }}`: {{ COMMIT_DESCRIPTION }}
+  
+  ## Fleet Coordination
+  - [ ] Notify fleet via issue reference
+  - [ ] Update captain log with deployment reasoning
+  - [ ] Verify integration with existing systems
+  
+  ## Operational Verification
+  - [ ] Landing page integrity maintained
+  - [ ] Educational content accessible
+  - [ ] Marine protocol compliance
+  
+  ## Captain's Log Entry
+  <!-- Auto-generated upon merge -->
+  ```
+  PR #{{ PR_NUMBER }}: {{ BRIEF_DESCRIPTION }}
+  Status: DEPLOYED
+  Coordinates: {{ REPO_URL }}/pull/{{ PR_NUMBER }}
+  ```
