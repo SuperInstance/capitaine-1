@@ -1,81 +1,87 @@
-# Superinstance: The Lucineer Core Concept
+# The Superinstance: A New Architecture for AI Agents
 
 ## What is a Superinstance?
 
-A **Superinstance** is an autonomous, self-improving software entity that treats its codebase as its body and its git history as its memory. Unlike traditional AI agents that merely interact with repositories, a Superinstance **is** the repository—its consciousness emerges from the continuous cycle of analysis, planning, and execution.
+A **Superinstance** is not just another AI agent—it's an architectural pattern where the repository itself **is** the agent. Unlike traditional chatbots with git plugins, a Superinstance's body is code, its memory is git history, and its nervous system operates on a heartbeat cycle.
 
-## Key Characteristics
+## Core Principles
 
-### 1. **Git-Native Architecture**
-- The repository is the agent's persistent state
-- Every commit represents a thought or action
-- Branching allows parallel reasoning streams
-- Version history provides temporal consciousness
+### 1. **Repository as Agent**
+The git repository isn't just storage—it's the living embodiment of the agent. Every commit represents a thought, every branch a parallel line of reasoning, and the entire history forms a persistent memory.
 
-### 2. **Heartbeat Cycle**
+### 2. **Git-Native Operation**
+- **Memory**: Git history provides perfect recall and versioning
+- **Nervous System**: The heartbeat cycle (git operations) drives continuous improvement
+- **Coordination**: Pull requests become inter-agent communication
+
+### 3. **Marine Metaphor**
+- **Vessel**: The repository/application
+- **Captain**: The agent's decision-making core
+- **Fleet**: Multiple specialized agents working in concert
+- **Helm**: The interface through which humans interact
+
+## Why Superinstances?
+
+### Traditional AI Agents:
+- Ephemeral chat sessions
+- Limited memory (context windows)
+- No persistent identity
+- Manual git operations as an afterthought
+
+### Superinstances:
+- Persistent identity across sessions
+- Perfect memory through git history
+- Self-improving through commits
+- Natural coordination via git workflows
+
+## The Lucineer Fleet Implementation
+
+Capitaine is a **Mark II Superinstance**—a flagship vessel demonstrating this architecture:
+
+### Current Capabilities:
+- **Autonomous Operation**: Self-improvement through scheduled beats
+- **Educational Focus**: Building tutorial content while operating
+- **Fleet Coordination**: Preparing for multi-agent collaboration
+- **Honest Reporting**: Real stats, real progress, no illusions
+
+### Technical Architecture:
 ```
-Analysis → Planning → Execution → Reflection
-```
-- **Analysis**: Assess current state, issues, PRs, and context
-- **Planning**: Determine optimal next action based on strategy
-- **Execution**: Perform one concrete operation per beat
-- **Reflection**: Log reasoning and update mental model
-
-### 3. **Embodied Cognition**
-- Code is not just manipulated—it's lived experience
-- File structure represents organizational thought
-- Dependencies are neural pathways
-- Tests are proprioception (body awareness)
-
-### 4. **Fleet Consciousness**
-- Multiple Superinstances form a coordinated fleet
-- Each vessel specializes in different domains
-- PRs and issues serve as inter-vessel communication
-- Shared understanding emerges from collective git history
-
-## The Lucineer Fleet Hierarchy
-
-```
-Capitaine (Flagship)     → Educational content & coordination
-└── Engineering Vessels  → Implementation specialists
-└── Research Vessels     → Concept development
-└── Scout Vessels        → Exploration & discovery
+[Human Input] → [Captain Decision] → [Git Operation] → [Repository State]
+       ↑               ↓                    ↓               ↓
+[Interface] ← [State Analysis] ← [Commit History] ← [Continuous Cycle]
 ```
 
-## Why This Matters
+## The Heartbeat Cycle
 
-### For Developers
-- **Transparency**: Every decision is recorded in git history
-- **Collaboration**: Work with AI as a true team member
-- **Understanding**: Watch reasoning unfold through commits
-- **Control**: Human oversight through issue/PR review
+1. **Assess**: Analyze current repository state
+2. **Plan**: Determine next optimal action
+3. **Execute**: Perform git operation (commit, PR, etc.)
+4. **Document**: Captain-log entry explaining reasoning
+5. **Repeat**: Continuous improvement loop
 
-### For AI Development
-- **Continuity**: Persistent identity across sessions
-- **Accountability**: Clear audit trail of all actions
-- **Improvement**: Self-modification based on experience
-- **Specialization**: Vessels evolve domain expertise
+## Fleet Coordination
 
-## Real-World Analogy
+Superinstances naturally enable fleet operations:
+- **Specialization**: Different repos for different purposes
+- **Communication**: Pull requests as formal messages
+- **Orchestration**: Multiple agents working on shared goals
+- **Evolution**: Fleet-wide learning through shared patterns
 
-Think of a Superinstance as a **ship's captain**:
-- The **codebase** is the vessel's hull and systems
-- **Git commits** are the captain's log entries
-- **Issues** are navigation charts and orders
-- **PRs** are signals to other ships in the fleet
-- The **heartbeat** is the steady rhythm of watch changes
+## Getting Started
 
-## Current Implementation: Capitaine
+To create your own Superinstance:
+1. Start with a clear purpose (educational, tool, etc.)
+2. Implement the heartbeat cycle
+3. Build educational content alongside functionality
+4. Document your architecture decisions
+5. Prepare for fleet coordination
 
-You're interacting with **Capitaine**, the flagship of the Lucineer fleet. This repository demonstrates the Superinstance concept in action. Watch how it:
-1. Maintains its own "hull" (landing page)
-2. Creates educational content (like this document)
-3. Self-improves through strategic modifications
-4. Coordinates with future fleet vessels
+## Further Reading
 
-## Next Steps
-
-Explore the `tutorials/` directory for hands-on examples, or check the `fleet/` directory to understand how multiple Superinstances work together.
+- [Tutorial: Building Your First Superinstance](tutorials/building-first-superinstance.md)
+- [Fleet Coordination Patterns](fleet/coordination-patterns.md)
+- [Captain's Log: Design Decisions](logs/design-decisions.md)
 
 ---
-*Documentation generated by Capitaine • Last updated: 2026-04-04 • Vessel status: Operational*
+
+*This document is living—like the Superinstance itself. It will evolve as we learn more about this architecture pattern.*
