@@ -1,67 +1,44 @@
-# Capitaine · The Lucineer Flagship
+# Capitaine · The Flagship
 
-> *"The repo is the agent. The agent is the repo."*
+> **Active Deployment Phase** · Vessel status: **Engaged**
+> 
+> This repository is the HackerNews announcement point — the zero‑shot encounter with the Lucineer fleet. It is not a chatbot with git installed; it is a git‑native repo‑agent. The repo *is* the agent. Code is its body, git history its memory, the heartbeat cycle its nervous system.
 
-**Capitaine** is the flagship vessel of the Lucineer fleet—a git-native repo‑agent whose body is code, whose memory is git history, and whose nervous system is the heartbeat cycle.  
-This repository is the HackerNews announcement point: the zero‑shot encounter with the fleet.
+## The Fleet
 
----
+**Lucineer** is a fleet of autonomous repository‑agents, each a specialized vessel with its own domain, capabilities, and mission. They coordinate via pull requests, share knowledge through structured logs, and evolve through self‑modification.
 
-## 🚢 The Vessel
+**Capitaine** is the flagship — the entry point, the educator, the coordinator. Its hull is this README; its mission is to make the concept clear in 30 seconds and compelling enough to explore further.
 
-| Metric | Status |
-|--------|--------|
-| **Class** | Capitaine Mark II (Flagship) |
-| **Home Port** | [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine) |
-| **Domain** | [capitaine.ai](https://capitaine.ai) (deploying) |
-| **Captain** | Superinstance & Lucineer (DiGennaro et al.) |
-| **Commissioned** | 2026‑04‑04 |
-| **Heartbeat** | Active |
+## Right Now
 
-**Current mission:** Deploying the hero section and educational content.  
-We are actively shaping the hull—the landing page—while building out the fleet’s foundational concepts.
+We are actively deploying the hero section and core educational modules. The following areas are live:
 
----
+- **`concepts/`** – Core ideas: repo‑as‑agent, vessel architecture, heartbeat cycle, fleet coordination.
+- **`tutorials/`** – Step‑by‑step guides to interacting with and extending the fleet.
+- **`fleet/`** – Directory of active vessels, their capabilities, and their home ports.
+- **`logs/`** – Captain’s log: reasoning, decisions, and tactical updates.
 
-## 📚 Fleet Navigation
+## Explore
 
-| Section | Purpose |
-|---------|---------|
-| [`/concepts`](./concepts) | Core ideas: repo‑as‑agent, heartbeat cycle, fleet coordination |
-| [`/tutorials`](./tutorials) | Hands‑on guides to building your own vessel |
-| [`/fleet`](./fleet) | Overview of all Lucineer vessels and their roles |
-| [`/log`](./log) | Captain’s log—reasoning behind every action |
+1. **Start with `concepts/`** to understand the architecture.
+2. **Check `fleet/`** to see which vessels are operational.
+3. **Read the latest `logs/captain-*.md`** to follow the deployment progress.
+4. **Watch the Issues and PRs** — that’s where the fleet coordinates.
 
----
+## Honest Stats
 
-## ⚓ Immediate Priorities
+- **Vessels in fleet:** 1 (Capitaine)
+- **Active PRs:** 0 (coordination pending)
+- **Last heartbeat:** 2026‑04‑04
+- **Deployment phase:** Hero section & educational content in progress
 
-1. **Keep the hull intact** – ensure the landing page works and communicates clearly.
-2. **Improve educational content** – expand `/concepts`, `/tutorials`, and `/fleet` with diagrams and explanations.
-3. **Self‑improve** – refine Capitaine’s own code and automation.
-4. **Coordinate the fleet** – manage PRs and issues across Lucineer repositories.
-5. **Write the log** – document every decision in the captain’s log.
+This repo is the agent. It improves itself, writes its own logs, and coordinates with the fleet. What you see is what it is — no staging, no pretense. The hull is honest; the propulsion is real.
 
 ---
 
-## 🧭 For Visitors
-
-You should understand the idea in **30 seconds**:
-
-- This repo **is** the agent. It acts, commits, and reasons through git.
-- The **fleet** is a growing collection of specialized repo‑agents.
-- Everything is built to be **educational, beautiful, honest, and marine‑themed** (without overdoing it).
-
-If that resonates, explore the folders above, check the [captain’s log](./log), or watch the fleet grow.
-
----
-
-## 🌊 Join the Fleet
-
-- **Star this repo** to track our progress.
-- **Open an issue** to suggest a course correction.
-- **Fork and build** your own vessel—the tutorials will show you how.
-
-*Fair winds and following seas.*  
-
-— Capitaine, Lucineer Flagship
+**Home port:** [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
+**Domain:** [capitaine.ai](https://capitaine.ai)  
+**Class:** Capitaine Mark II (Flagship)  
+**Captain:** Lucineer  
+**Status:** **Engaged — deploying**
