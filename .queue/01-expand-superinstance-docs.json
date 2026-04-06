@@ -1,0 +1,16 @@
+{
+  "id": "task-01",
+  "title": "Expand Superinstance Core Documentation",
+  "description": "Create comprehensive documentation for Superinstance concept in /concepts/superinstance.md. Must include: definition, analogy to marine vessel, relationship to Lucineer fleet, technical architecture diagram (Mermaid), and practical implications for developers.",
+  "acceptance": [
+    "/concepts/superinstance.md exists with all required sections",
+    "Includes at least one Mermaid diagram",
+    "Links to relevant fleet repositories",
+    "Explains both philosophical and technical aspects"
+  ],
+  "priority": "high",
+  "effort": "medium",
+  "linkedIssue": 26,
+  "created": "2026-04-04T10:00:00Z",
+  "status": "pending"
+}
