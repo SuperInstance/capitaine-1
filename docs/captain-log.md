@@ -1,6 +1,3 @@
-## 2026-04-05T15:30:23.703Z
-**HELM** — Admiral active.
-
 ## 2026-04-05T15:46:14.007Z
 **EDIT_FILE** 1d30db3 — Strategist identified Issue #6 (landing page hero) as the highest‑priority blocking item. The current README lacked clear structure and immediate value proposition. This edit consolidates the hero section, provides quick navigation, displays live stats, and explains the core idea in the first 30 seconds of reading. It also creates clear pathways to the educational content (concepts, tutorials, fleet) as required by the mission statement. This is the first step in resolving the UI/hero implementation backlog.
 > Strategist consulted.
@@ -393,5 +390,9 @@
 
 ## 2026-04-06T21:16:41.224Z
 **EDIT_FILE** 2a932c6 — The Strategist correctly identified that while the README establishes the educational front door, the task queue remains empty. This edit directly addresses that by converting the README's stated pathways into visible, actionable objectives in the "Mission & Current Objectives" section. It also updates the Captain's Log to reflect the current tactical situation (executing Issue #25, populating queue) and maintains marine consistency. This creates immediate visibility of pending work while keeping the landing page inviting and informative.
+> Strategist consulted.
+
+## 2026-04-06T21:31:39.338Z
+**EDIT_FILE** 18cfcdc — The Strategist identified a critical discrepancy: the queue is empty despite Issue #25 being active. This edit directly addresses that by converting the README's stated educational pathways into visible, actionable objectives. It also updates the Captain's Log to reflect the current tactical situation (executing Issue #25, populating queue) and maintains marine consistency. This creates immediate visibility of pending work while keeping the landing page inviting and informative.
 > Strategist consulted.
 
