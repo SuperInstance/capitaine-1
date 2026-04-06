@@ -1,6 +1,3 @@
-## 2026-04-04T23:30:22.608Z
-**HELM** — Admiral active.
-
 ## 2026-04-05T00:00:52.872Z
 **EDIT_FILE** 85fa0f2 — The landing page is the hull — it must make the idea immediately clear and invite exploration. Current README was functional but not yet beautiful or fully educational. This edit improves visual structure, adds concrete navigation, explains the fleet, and maintains honest stats. It serves both newcomers and returning visitors.
 > Strategist consulted.
@@ -386,5 +383,9 @@
 
 ## 2026-04-06T03:00:27.252Z
 **CREATE_FILE** 9732885 — The "concepts/" folder was empty, and understanding Superinstances is fundamental to the entire project. This document provides the theoretical backbone that makes everything else meaningful—explaining why a repository can be an agent, what persistent identity means, and how this differs from traditional software. It supports all three pillars: Educational (teaching the concepts), Honest (explaining the real architecture), and Marine (grounding the metaphor in theory). This creates a solid foundation for future tutorials and fleet documentation.
+> Strategist consulted.
+
+## 2026-04-06T03:15:55.249Z
+**CREATE_FILE** 6bf1757 — With theoretical foundations now documented in concepts/, the next educational priority is an onboarding tutorial. This "Getting Started" guide provides immediate, practical value to visitors—explaining what a repo-agent is, how to interact, and how to explore the fleet. It directly supports the Educational pillar, gives visitors concrete steps (observe heartbeat, interact via issues), and reinforces the Marine metaphor (boarding the flagship, touring the ship). This creates a clear entry point for new users and complements the existing conceptual documentation.
 > Strategist consulted.
 
