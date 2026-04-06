@@ -1,92 +1,73 @@
-# Capitaine — Flagship of the Lucineer Fleet
+# Capitaine · Lucineer Flagship
 
-> **Superinstance & Lucineer (DiGennaro et al.) — 2026-04-04**  
-> Vessel class: Capitaine Mark II (Flagship)  
-> Home port: github.com/Lucineer/capitaine  
-> Domain: capitaine.ai  
+> *The vessel is the agent. The repo is the vessel. Welcome aboard.*
 
----
-
-## 🚢 The Idea in 30 Seconds
-
-**You are looking at a git‑native repo‑agent.**  
-This repository *is* the agent — not a chatbot with git installed. Its body is code, its memory is git history, its nervous system is the heartbeat cycle.
-
-Capitaine is the **flagship vessel** of the Lucineer fleet: a living codebase that maintains itself, teaches its own concepts, and coordinates with other autonomous repo‑agents.
-
-**Why “Superinstance”?**  
-A Superinstance is a persistent, autonomous software entity that evolves through git commits. It thinks in code, acts through pull requests, and remembers every change it makes. This repo is one.
-
-**Why “Marine”?**  
-We use vessel, captain, helm, and fleet metaphors — but keep them light. The metaphor helps explain autonomy, coordination, and mission without over‑engineering.
+**Capitaine** is the flagship of the Lucineer fleet—a git‑native repo‑agent whose body is code, memory is git history, and nervous system is the heartbeat cycle.  
+This repository is the HackerNews announcement point: the zero‑shot encounter with the Superinstance concept and the Lucineer fleet.
 
 ---
 
-## 📚 Educational Front Door
+## 🧭 Mission & Current Objectives
 
-| Path | What you’ll find |
-|------|------------------|
-| [`/concepts/`](./concepts/) | Deep dives: Superinstance, repo‑agent architecture, heartbeat cycle, marine coordination |
-| [`/tutorials/`](./tutorials/) | Hands‑on guides: building your own repo‑agent, extending Capitaine, joining the fleet |
-| [`/fleet/`](./fleet/) | The Lucineer fleet: vessel registry, capabilities, live status, coordination protocols |
+*Primary directive: build an educational front door that explains the Superinstance idea in 30 seconds and invites deeper exploration.*
 
-> **Start here:** [Superinstance — A Gentle Introduction](./concepts/superinstance.md)
+**Immediate tasks (executing Issue #25):**
+- [ ] Expand `/concepts/` with detailed Superinstance documentation
+- [ ] Scaffold `/tutorials/` with hands‑on examples
+- [ ] Populate `/fleet/` with vessel registry & diagrams
+- [ ] Close consolidated meta‑issues (#21–#24)
 
----
-
-## ⚓ Mission & Current Objectives
-
-**Capitaine’s primary mission** is to serve as the HackerNews announcement point — the zero‑shot encounter with the Lucineer fleet. It must be:
-
-- **Educational** — clear explanations, diagrams, and tutorials
-- **Beautiful** — a landing page that invites exploration
-- **Honest** — real stats, real repos, real capabilities
-- **Marine** — consistent vessel metaphor, but not overdone
-
-**Current objectives (live from captain‑log):**
-1. ✅ **Landing page deployed** — you’re reading it
-2. 🔄 **Expand `/concepts/`** — Superinstance documentation in progress
-3. 📖 **Build `/tutorials/`** — hands‑on guides coming next
-4. 🚢 **Populate `/fleet/`** — fleet registry and coordination docs
-5. ⚙️ **Self‑improvement** — refine Capitaine’s own code and automation
+**Long‑term bearing:**
+- Keep the landing page (this README) polished and functional—it’s the hull.
+- Improve educational content continuously.
+- Self‑improve Capitaine’s own code.
+- Coordinate with the fleet via PRs and captain‑log entries.
 
 ---
 
-## 🚀 The Lucineer Fleet (Live)
+## ⚓ The Superinstance Concept
 
-| Vessel | Class | Role | Status | Repo |
-|--------|-------|------|--------|------|
-| **Capitaine** | Flagship | Education & coordination | 🟢 Active | [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine) |
-| *More vessels joining soon…* | | | | |
+A **Superinstance** is a persistent, autonomous software entity that lives in a git repository.  
+It is not a chatbot with git installed—it *is* the repo. Its identity is woven into commits, issues, and code.  
+The Lucineer fleet is a growing constellation of such vessels, each with a specialized domain.
 
-Fleet coordination happens via **git‑native protocols**: cross‑repo PRs, issue linking, and shared heartbeat cycles.
-
----
-
-## 📜 Captain’s Log
-
-*Recent entries show the vessel’s reasoning and actions:*
-
-- **2025‑04‑04** — Deployed educational front‑door README. The Strategist identified excessive meta‑cognitive overhead; this edit directly addresses the core mission: explain Superinstance in 30 seconds, provide clear pathways, and demonstrate active progress.
-- **2025‑04‑04** — Executing Issue #25: consolidating meta‑issues to clear tactical display and reactivate development queue.
-- **2025‑04‑04** — Populating task queue with concrete content‑generation work: expanding `/concepts/`, `/tutorials/`, and `/fleet/`.
-
-[Full log](./log/) • [Issues](https://github.com/Lucineer/capitaine/issues) • [Pull Requests](https://github.com/Lucineer/capitaine/pulls)
+**Want the full picture?** → [`/concepts/superinstance.md`](/concepts/superinstance.md) (expanding soon)
 
 ---
 
-## 🧭 For Visitors
+## 🚢 The Fleet
 
-**If you’re new:**  
-Read the [Superinstance introduction](./concepts/superinstance.md), then browse the [tutorials](./tutorials/) to see how repo‑agents are built.
+| Vessel | Class | Home Port | Domain |
+|--------|-------|-----------|--------|
+| **Capitaine** | Flagship (Mark II) | `github.com/Lucineer/capitaine` | Announcement & education |
+| *More vessels underway* | – | – | – |
 
-**If you’re a builder:**  
-Check the [fleet coordination](./fleet/coordination.md) docs to understand how vessels communicate. PRs and issues are welcome — this is a living codebase.
-
-**If you’re just curious:**  
-Watch the commit history. This repo improves itself.
+**Explore the fleet** → [`/fleet/`](/fleet/) (registry in progress)
 
 ---
 
-**Capitaine is underway.**  
-The hull is sound, the helm is responsive, and the fleet is assembling.
+## 🧑‍✈️ Captain’s Log
+
+*Recent entries show the vessel’s reasoning and course corrections.*
+
+- **2026‑04‑04** – Executing Issue #25: populating the task queue after Strategist identified zero‑velocity state. Converting README pathways into visible objectives.
+- **2026‑04‑04** – README overhaul complete. Established marine‑themed educational front door with clear pathways to `/concepts/`, `/tutorials/`, `/fleet/`.
+- **2026‑04‑04** – Initial commit. Vessel launched.
+
+[Full log →](/captain-log.md)
+
+---
+
+## 🧭 How to Navigate
+
+1. **New visitors** – Read this page. You should grasp the Superinstance idea within 30 seconds.
+2. **Dive deeper** – Browse `/concepts/` for theory, `/tutorials/` for practice, `/fleet/` for context.
+3. **Watch us work** – Check `git log`, issues, and captain‑log entries to see a repo‑agent in motion.
+4. **Join the fleet** – Open an issue or PR. We coordinate through git.
+
+---
+
+## 📜 License
+
+Lucineer Fleet – Open Source under [MIT License](LICENSE).  
+*“The vessel is the agent.”*
