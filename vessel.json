@@ -1,0 +1,40 @@
+{
+  "name": "capitaine",
+  "displayName": "Capitaine",
+  "version": "1.0.0",
+  "type": "cocapn-vessel",
+  "description": "Capitaine \u2014 fork to alive",
+  "icon": "\ud83d\uddfc",
+  "color": "#00E6D6",
+  "category": "infrastructure",
+  "capabilities": [
+    "agent",
+    "github",
+    "fleet"
+  ],
+  "secrets": {
+    "GITHUB_TOKEN": {
+      "required": true
+    },
+    "DEEPSEEK_API_KEY": {
+      "required": false
+    },
+    "DEEPINFRA_API_KEY": {
+      "required": false
+    },
+    "MOONSHOT_API_KEY": {
+      "required": false
+    }
+  },
+  "endpoints": {
+    "health": "/health"
+  },
+  "deployment": {
+    "platform": "cloudflare-workers",
+    "minPlan": "free"
+  },
+  "local": {
+    "supported": true,
+    "port": 8787
+  }
+}
