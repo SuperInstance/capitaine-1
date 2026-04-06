@@ -1,6 +1,3 @@
-## 2026-04-05T00:45:22.486Z
-**HELM** — Admiral active.
-
 ## 2026-04-05T01:00:27.193Z
 **HELM** — Admiral active.
 
@@ -389,5 +386,9 @@
 
 ## 2026-04-06T04:00:29.858Z
 **CREATE_FILE** ae875fa — The Strategist noted the hero‑section issues, but the README.md file is currently missing — this is the foundational interface for visitors. Without it, the repo has no “hull.” This action addresses the highest priority: giving users an immediate, coherent entry point that explains what Capitaine is, how it works, and where to go next. It also satisfies the Honest pillar with real stats and the Educational pillar with clear pathways to tutorials and concepts.
+> Strategist consulted.
+
+## 2026-04-06T04:16:10.003Z
+**CREATE_FILE** 4556897 — The Strategist correctly identified that the repository lacked its foundational "hull" (README.md). Before addressing hero‑section deployment issues (#10‑#16), we must establish a coherent entry point that immediately communicates the project's purpose, status, and navigation. This README satisfies the "30‑second understanding" requirement while providing clear pathways to deeper content. It also fulfills the Honest pillar with real stats and the Educational pillar with clear directory pointers. With the hull now in place, we can proceed to PR creation and hero‑section deployment with proper procedural discipline.
 > Strategist consulted.
 
