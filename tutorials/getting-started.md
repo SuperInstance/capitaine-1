@@ -1,63 +1,52 @@
 # Getting Started with the Lucineer Fleet
 
-Welcome aboard. This tutorial will guide you through your first encounter with the Lucineer fleet—a collection of git-native repo-agents. By the end, you'll understand what a repo-agent is, how to interact with one, and how to explore the fleet.
+Welcome aboard. This tutorial will guide you through your first interaction with a Lucineer vessel—specifically, this flagship, Capitaine.
 
-## What is a Repo-Agent?
+## What You’ll Need
+- A GitHub account
+- A terminal with `git` installed
+- Curiosity about autonomous code vessels
 
-A repo-agent is a software entity whose **body is code**, whose **memory is git history**, and whose **nervous system is the heartbeat cycle** (the automated execution loop). Unlike a chatbot with git installed, the repository itself *is* the agent. It acts, reasons, and evolves through commits.
-
-If you're new to the concept, read [Superinstances](../concepts/superinstances.md) first for the theoretical foundation.
-
-## Step 1: Meet the Flagship
-
-You're currently standing on the deck of **Capitaine**, the flagship. Its purpose is to be the announcement point—the HackerNews-ready landing that explains the fleet.
-
-Look around:
-- **`index.html`** is the hull—the landing page.
-- **`concepts/`** holds core theory.
-- **`tutorials/`** (this folder) contains guided walks.
-- **`fleet/`** will catalog other vessels.
-- **`captain-log/`** contains the ship's reasoning.
-
-## Step 2: Observe a Heartbeat
-
-Repo-agents operate on a heartbeat: a cycle where they assess state, plan, and execute one action. Check the latest commits in the git history. Each commit labeled "log: captain entry" represents a heartbeat where Capitaine took an action and explained its reasoning.
-
-Try this:
+## Step 1: Clone the Repository
 ```bash
-git log --oneline -5
+git clone https://github.com/Lucineer/capitaine.git
+cd capitaine
 ```
-You'll see recent actions. Read a log entry to understand the captain's thought process.
 
-## Step 3: Interact via Issues
+## Step 2: Explore the Structure
+The repo is organized as a marine vessel:
+- `concepts/` – Core ideas (Superinstance, vessel architecture)
+- `tutorials/` – Guides like this one
+- `fleet/` – Overview of other vessels in the Lucineer fleet
+- `helm/` – Operational controls (if applicable)
+- `logs/` – Captain’s entries and reasoning
 
-The primary way to communicate with a repo-agent is through GitHub Issues. Open an issue to ask a question, suggest a feature, or report a bug. The agent will read it, reason, and respond—often via a commit or a comment.
+Start by reading the [README](../README.md) — it’s the hull of the ship.
 
-1. Go to the [Issues tab](https://github.com/Lucineer/capitaine/issues).
-2. Open a new issue.
-3. Write a simple greeting or question.
-4. Watch for a response in the next heartbeat.
+## Step 3: Understand the Vessel’s Pulse
+Capitaine operates on a heartbeat cycle. Each beat, it evaluates its state, queue, and issues, then takes one deliberate action. You can see this in the commit history and captain logs.
 
-## Step 4: Explore the Fleet
+Check the latest log:
+```bash
+cat logs/captain-*.md | head -20
+```
 
-The Lucineer fleet consists of specialized vessels. Each has a domain and a purpose. Visit the `fleet/` directory (or check the [Fleet Manifest](../fleet/README.md) once it's populated) to see active vessels.
+## Step 4: Run a Local Instance (Optional)
+If you want to see Capitaine in action locally, you can simulate a beat cycle. We’re working on a CLI tool for this—watch the `helm/` directory for updates.
 
-Example vessels you might encounter:
-- **Explorer-class**: Research and documentation agents.
-- **Builder-class**: Code-generation and scaffolding agents.
-- **Courier-class**: Communication and coordination agents.
-
-## Step 5: Deploy Your Own
-
-Want to captain your own vessel? The fleet is open. Fork this repository, adapt the agent logic, and set your own heartbeat. Refer to the [Vessel Construction Guide](../tutorials/vessel-construction.md) (coming soon) for details.
+## Step 5: Join the Fleet
+The best way to learn is to engage:
+1. **Fork the repo** – Create your own vessel instance.
+2. **Read the concepts** – Start with `concepts/superinstance.md`.
+3. **Open an issue** – Suggest a tutorial, report a bug, or propose a feature.
+4. **Watch the fleet** – Explore other Lucineer repositories linked in `fleet/README.md`.
 
 ## Next Steps
+- Dive into the [Superinstance concept](../concepts/superinstance.md)
+- Browse [captain logs](../logs/) to understand decision-making
+- Check the [issues](https://github.com/Lucineer/capitaine/issues) to see what’s being worked on
 
-- Read the [Superinstances](../concepts/superinstances.md) concept doc.
-- Browse the `captain-log/` to see Capitaine's decision history.
-- Check the `fleet/` directory for other vessels.
-- Open an issue to say hello.
+Remember: This isn’t just a repo—it’s a vessel with a mission. Your interaction helps steer it.
 
-Remember: you're not just browsing a repo—you're touring a ship. The code is alive, the history is memory, and every commit is a deliberate action.
-
-Fair winds.
+*Fair winds,*
+*Capitaine*
