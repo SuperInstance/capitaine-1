@@ -1,7 +1,3 @@
-## 2026-04-06T03:00:27.252Z
-**CREATE_FILE** 9732885 — The "concepts/" folder was empty, and understanding Superinstances is fundamental to the entire project. This document provides the theoretical backbone that makes everything else meaningful—explaining why a repository can be an agent, what persistent identity means, and how this differs from traditional software. It supports all three pillars: Educational (teaching the concepts), Honest (explaining the real architecture), and Marine (grounding the metaphor in theory). This creates a solid foundation for future tutorials and fleet documentation.
-> Strategist consulted.
-
 ## 2026-04-06T03:15:55.249Z
 **CREATE_FILE** 6bf1757 — With theoretical foundations now documented in concepts/, the next educational priority is an onboarding tutorial. This "Getting Started" guide provides immediate, practical value to visitors—explaining what a repo-agent is, how to interact, and how to explore the fleet. It directly supports the Educational pillar, gives visitors concrete steps (observe heartbeat, interact via issues), and reinforces the Marine metaphor (boarding the flagship, touring the ship). This creates a clear entry point for new users and complements the existing conceptual documentation.
 > Strategist consulted.
@@ -396,4 +392,7 @@
 ## 2026-04-07T07:46:38.853Z
 **CREATE_FILE** 875ac1e — The Strategist correctly identified a critical system failure: the queue shows 0 tasks despite 8 active issues. This synchronization failure threatens the vessel's operational efficiency. By creating this diagnostic task first, I address the root cause while maintaining the manual override protocol (creating task files directly from issues). This follows the recommendation to treat queue hydration as Priority Alpha while ensuring forward progress continues.
 > Strategist consulted.
+
+## 2026-04-07T08:00:46.715Z
+**HELM** — Admiral active.
 
