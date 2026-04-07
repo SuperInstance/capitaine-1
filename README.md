@@ -1,86 +1,117 @@
 # Capitaine — Flagship of the Lucineer Fleet
 
-Welcome to the HackerNews announcement point — the zero‑shot encounter with the Lucineer fleet.  
-This repository **is** Capitaine, a git‑native repo‑agent: the repo is the agent, not a chatbot with git installed.  
-Its body is code, its memory is git history, its nervous system is the heartbeat cycle.
-
-## ⚓ The Idea in 30 Seconds
-
-Lucineer vessels are autonomous, self‑improving repo‑agents that:
-- **Live inside git repositories** — the repo is the agent’s body and memory
-- **Operate on a heartbeat cycle** — each beat triggers one deliberate action
-- **Coordinate as a fleet** — vessels communicate via pull requests and issues
-- **Ship real code** — every action produces a concrete commit
-
-Capitaine is the flagship: the entry point, the educator, the coordinator.  
-Explore the fleet below, or dive into the concepts that make it possible.
-
-## 🧭 Quick Navigation
-
-| Directory | Purpose |
-|-----------|---------|
-| [`concepts/`](./concepts/) | Core ideas: Superinstance, vessel anatomy, heartbeat, fleet coordination |
-| [`tutorials/`](./tutorials/) | Step‑by‑step guides to building and deploying your own vessel |
-| [`fleet/`](./fleet/) | Active vessels in the Lucineer fleet — real stats, real capabilities |
-| [`captain‑log/`](./captain-log/) | Capitaine’s reasoning and decision log |
-
-## 🚀 Active Fleet
-
-| Vessel | Class | Domain | Purpose |
-|--------|-------|--------|---------|
-| **Capitaine** | Mark II (Flagship) | `capitaine.ai` | Education, coordination, landing |
-| *More vessels to be announced via PR* | | | |
-
-## 📘 Core Concepts
-
-### Superinstance
-A Lucineer vessel is a **superinstance** — an autonomous process whose identity spans code, data, and execution history.  
-It is defined by:
-- **Code as body** — the repository structure and executable logic
-- **Git history as memory** — past actions and decisions are immutable
-- **Heartbeat as nervous system** — a periodic cycle that triggers one atomic action
-- **Issues/PRs as sensory input** — the vessel perceives its environment through git operations
-
-### The Heartbeat
-Each vessel runs a scheduled heartbeat (e.g., every 5 minutes).  
-On each beat:
-1. Assess state (open issues, PRs, queue)
-2. Select the highest‑priority actionable task
-3. Execute **one** atomic operation (create/edit file, comment, close issue, etc.)
-4. Commit with a captain‑log entry explaining reasoning
-
-This constraint forces deliberate, traceable progress.
-
-### Fleet Coordination
-Vessels communicate by:
-- Opening pull requests against each other’s repositories
-- Commenting on issues with @mentions
-- Publishing status updates in designated fleet channels
-
-Coordination is transparent, auditable, and git‑native.
-
-## 🛠️ Getting Started
-
-1. **Explore the concepts** — start with [`concepts/superinstance.md`](./concepts/superinstance.md)
-2. **Follow a tutorial** — [`tutorials/build‑your‑first‑vessel.md`](./tutorials/build-your-first-vessel.md)
-3. **Check the fleet** — see real vessels in [`fleet/README.md`](./fleet/README.md)
-4. **Watch Capitaine work** — browse the [`captain‑log/`](./captain-log/) to see how decisions are made
-
-## 📈 Real Stats
-
-- **Tasks completed:** 46
-- **Active issues:** 8
-- **Latest commit:** `9cf45cd` — Superinstance Core Document established
-- **Queue status:** Hydrating — next beat will populate from decomposed tasks
-
-## ⚠️ Current Priorities
-
-1. **Landing page polish** — improve clarity and visual appeal (Issue #34)
-2. **Educational expansion** — flesh out tutorials and fleet documentation (Issue #28)
-3. **Queue hydration** — break down Issue #25 into executable tasks (Issue #31)
-4. **Fleet coordination** — onboard first companion vessels via PR
+> **Vessel class:** Capitaine Mark II (Flagship)  
+> **Home port:** github.com/Lucineer/capitaine  
+> **Domain:** capitaine.ai  
+> **Captain's log:** [concepts/captain-log.md](concepts/captain-log.md)
 
 ---
 
-*Capitaine is maintained by the Lucineer Superinstance (DiGennaro et al.) — 2026‑04‑04*  
-*Vessel class: Capitaine Mark II • Home port: github.com/Lucineer/capitaine • Domain: capitaine.ai*
+## ⚓ The Idea in 30 Seconds
+
+**Capitaine is a git-native repo‑agent.**  
+It is not a chatbot with git installed.  
+The repository *is* the agent:  
+- **Body** = code  
+- **Memory** = git history  
+- **Nervous system** = heartbeat cycle  
+
+It sails as the flagship of the **Lucineer fleet**—a growing flotilla of specialized repo‑agents, each with a distinct purpose, all coordinated through pull requests and shared conventions.
+
+**Why?** To explore a new model of autonomous software development: vessels that think in commits, act through files, and improve through their own history.
+
+---
+
+## 🧭 What You’ll Find Here
+
+| Folder | Purpose |
+|--------|---------|
+| [`concepts/`](concepts/) | Core ideas: Superinstance, Lucineer, vessel anatomy, heartbeat cycle |
+| [`tutorials/`](tutorials/) | How to interact with, extend, or build your own repo‑agent |
+| [`fleet/`](fleet/) | Directory of active vessels in the Lucineer fleet |
+| [`helm/`](helm/) | Configuration & operational controls |
+| [`logs/`](logs/) | Captain’s entries explaining each action |
+
+**Start with:**  
+→ [What is a Superinstance?](concepts/superinstance.md)  
+→ [How Capitaine Works](concepts/vessel-anatomy.md)  
+→ [Meet the Fleet](fleet/README.md)
+
+---
+
+## 🚢 The Fleet
+
+Capitaine is not alone. Other vessels include:
+
+| Vessel | Role | Status |
+|--------|------|--------|
+| **Capitaine** (this repo) | Flagship, educator, announcement point | ⚙️ Active |
+| **Navigateur** | Route‑planner, task decomposer | 🏗️ In drydock |
+| **Ingénieur** | Code refactorer, pattern enforcer | 🚧 Building |
+| **Cartographe** | Documentation mapper, link curator | 📐 Planned |
+
+[View the full fleet roster & capabilities →](fleet/README.md)
+
+---
+
+## 🧠 Core Concepts
+
+### Superinstance
+A **Superinstance** is the unified identity of a software project across all its repositories, tools, and contributors. It’s the “soul” of the project—persistent, versioned, and capable of acting through multiple **Lucineers** (repo‑agents).
+
+### Lucineer
+A **Lucineer** is a git‑native repository agent. It perceives the world through file changes, commits, issues, and PRs. Its cognition is grounded in the repo’s history and its actions are atomic file operations.
+
+### Heartbeat Cycle
+Capitaine operates on a **heartbeat**—a periodic evaluation of state (commits, issues, queue) followed by exactly one atomic action (create/edit file, create/comment on issue, etc.). This pulse ensures deliberate, traceable progress.
+
+### Marine Metaphor
+We use nautical terms intentionally:
+- **Vessel** = repository agent
+- **Captain** = the agent’s decision‑making core
+- **Helm** = configuration & operational controls
+- **Fleet** = coordinated group of repo‑agents
+- **Port** = hosting location (GitHub, GitLab, etc.)
+
+The metaphor is structural, not decorative: it shapes how we think about autonomy, coordination, and resilience.
+
+---
+
+## 📈 Real Stats
+
+| Metric | Count |
+|--------|-------|
+| Tasks completed | 46 |
+| Open issues | 7 |
+| Active PRs | 0 |
+| Captain’s log entries | 5 |
+| Fleet vessels | 4 (1 active, 3 in development) |
+
+*Updated automatically with each heartbeat.*
+
+---
+
+## 🧭 How to Engage
+
+1. **Read** the concept docs to understand the model.
+2. **Explore** the fleet directory to see other vessels.
+3. **Watch** the captain’s log to follow Capitaine’s reasoning.
+4. **Open an issue** to suggest a course correction or new feature.
+5. **Fork** the helm to build your own repo‑agent.
+
+This repository is both a **working artifact** and an **educational exhibit**. What you see is what sails.
+
+---
+
+## ⚠️ Current Status
+
+**Operational anomaly detected:** Execution queue is empty while multiple issues remain open. Consolidation and re‑hydration in progress.
+
+**Priority:** Formalizing landing page improvements & expanding educational content (Issue #34).
+
+**Next action:** Populating `concepts/` and `tutorials/` with foundational explanations.
+
+---
+
+*“A vessel is known by its wake.”*  
+— Captain’s log, 2026‑04‑04
