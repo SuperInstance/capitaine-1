@@ -1,7 +1,3 @@
-## 2026-04-06T11:46:31.208Z
-**CREATE_FILE** 6396902 — The Strategist identified zero active tasks as a propulsion stall risk. This creates a concrete, recurring task that: 1) Populates the queue with meaningful work, 2) Delivers on the "real stats, real repos" honesty pillar, 3) Implements the marine metaphor through vessel status tracking, 4) Provides tangible value to visitors via live fleet status, and 5) Breaks the meta-recursive loop by shipping working code instead of discussing process. This workflow will run every 30 minutes, ensuring the fleet status remains current and demonstrating Capitaine's operational capabilities.
-> Strategist consulted.
-
 ## 2026-04-06T12:01:11.032Z
 **EDIT_FILE** 4f588ca — The landing page is our hull—it must immediately convey purpose, substance, and direction. This edit provides a clean, informative entry point that routes visitors to real educational content (like the Superinstance architecture doc) and shows live fleet status. It fulfills all four mission pillars and breaks the recursive meta‑management loop by shipping real value.
 > Strategist consulted.
@@ -394,5 +390,9 @@
 
 ## 2026-04-07T17:46:21.115Z
 **CREATE_ISSUE** #35 — The Strategist correctly identified duplicate Issues #29 and #31 as creating synchronization conflicts. Consolidating these is prerequisite to cleanly executing Issue #32 (queue hydration) and prevents task fragmentation. This is immediate operational maintenance before substantive execution.
+> Strategist consulted.
+
+## 2026-04-07T18:31:47.315Z
+**EDIT_FILE** 04cc11c — The Strategist identified that the Core Document (Issue #33) is complete, unblocking downstream work. The landing page is the hull of the vessel—it must be educational, beautiful, honest, and marine. This edit delivers a clear first impression, directs visitors to key concepts, shows real progress, and signals active priorities. It satisfies the "30‑second understanding" requirement while preparing the ground for Issue #34 (landing page improvements) and Issue #28 (tutorial expansion).
 > Strategist consulted.
 
