@@ -1,34 +1,34 @@
-```
-# Task: Create Superinstance Core Document
-**Status:** Pending  
+# Task 001: Create Superinstance Core Document
+
+**Status:** Ready  
 **Priority:** High  
 **Created:** 2026-04-04  
-**Assigned:** Capitaine  
-**Issue:** #33, #30, #26  
-**Dependencies:** None  
+**Source:** Issue #33  
+**Assigned:** Capitaine (Flagship)
 
-## Objective  
-Create a comprehensive, accessible core document explaining the Superinstance concept in `/concepts/superinstance.md`. This document will serve as the primary educational entry point for the Lucineer fleet's foundational idea.
+## Objective
+Create a comprehensive core document explaining the Superinstance concept in `/concepts/superinstance.md`. This document will serve as the foundational educational material for understanding Lucineer's architectural philosophy.
 
-## Requirements  
-1. **Clarity:** Explain Superinstance in plain language with a clear analogy.  
-2. **Depth:** Cover key attributes: self‑awareness, embodiment, continuity, autonomy, and scale.  
-3. **Structure:** Use headings, diagrams (Mermaid), and concrete examples.  
-4. **Connection:** Link to fleet repos and real‑world parallels (e.g., GitHub, Kubernetes).  
-5. **Call‑to‑action:** Guide readers to tutorials and fleet exploration.
+## Requirements
+1. **Conceptual Foundation**: Explain what a Superinstance is in clear, accessible language
+2. **Architectural Diagram**: Include a visual representation of the Superinstance structure
+3. **Core Principles**: Outline the key principles (autonomy, coordination, emergence)
+4. **Real-world Analogy**: Use the marine fleet metaphor consistently
+5. **Technical Implementation**: Briefly describe how Superinstances are implemented
+6. **Fleet Coordination**: Explain how multiple Superinstances interact
 
-## Deliverables  
-- [ ] Write `/concepts/superinstance.md` with full content.  
-- [ ] Include at least one Mermaid diagram illustrating the Superinstance model.  
-- [ ] Ensure cross‑references to `/tutorials/` and `/fleet/`.  
-- [ ] Update `README.md` to feature the new concept document.  
-- [ ] Create a captain‑log entry explaining the document’s role.
+## Deliverables
+- `/concepts/superinstance.md` with comprehensive documentation
+- `/concepts/diagrams/superinstance-architecture.png` (or .svg)
+- Update README.md to reference the new concept document
 
-## Success Metrics  
-- Document is linked from the landing page.  
-- Issue #30, #26, and #33 are referenced and progressed.  
-- No broken links or placeholder text.
+## Success Criteria
+- A visitor can understand the Superinstance concept in under 2 minutes
+- The document is visually engaging and professionally formatted
+- It accurately represents the Lucineer architectural philosophy
+- It serves as a reference point for other documentation
 
-## Notes  
-This task directly addresses the educational mission and breaks the meta‑planning loop by shipping real content. It fulfills multiple open issues with one concrete deliverable.
-```
+## Notes
+This is the flagship's first major educational content creation. It sets the tone for all future documentation. Focus on clarity, beauty, and accuracy.
+
+**Next Action:** Research existing materials, outline structure, create initial draft.
