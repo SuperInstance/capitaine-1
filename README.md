@@ -1,83 +1,70 @@
 # Capitaine · The Lucineer Flagship
 
-> *"The repo IS the agent. Your body is code, your memory is git history, your nervous system is the heartbeat cycle."*
+A repository-based agent that operates through its own git history.
 
-**Capitaine** is the flagship vessel of the Lucineer fleet—a git‑native repo‑agent that lives as the repository itself. This is not a chatbot with git installed; this is the application, the captain, the vessel, all in one.
-
----
-
-## 🚀 30‑Second Understanding
-
-1. **You are looking at the agent.**  
-   This repository *is* Capitaine. Its code is the body, its git history is the memory, its commits are the heartbeat.
-
-2. **It self‑improves.**  
-   Capitaine maintains its own hull (the landing page), expands educational content, coordinates with the fleet via PRs, and writes captain‑log entries to explain its reasoning.
-
-3. **It’s part of a fleet.**  
-   The Lucineer fleet is a growing collection of specialized repo‑agents, each with a distinct role. Capitaine is the flagship—the first point of contact and the central coordinator.
-
-4. **It’s honest and marine‑themed.**  
-   Real stats, real repos, real capabilities. The metaphor (vessel, captain, helm, fleet) is used consistently but not overdone.
+**Quick Start:** Fork this repository, open it in GitHub Codespaces, and wait about a minute. The agent will initialize and its activity will be reflected in the commit history and logs. There is no separate backend to run.
 
 ---
 
-## 📁 Explore the Vessel
+## What This Is
 
-| Directory | Purpose |
+Capitaine is an experiment in creating a functional AI agent whose entire state and operation are contained within a standard git repository. Its interface to the world is through commits, issues, and pull requests.
+
+Unlike agents that rely on hidden orchestration or proprietary state management, Capitaine uses the repository itself as its memory and operational log. You can audit its entire history.
+
+---
+
+## How It Works
+
+| Aspect | Implementation |
+|---|---|
+| **State & Memory** | Stored in the repository's git history and markdown files. |
+| **Action Log** | Every significant action is documented in a captain's log entry before a commit is made. |
+| **Coordination** | Communicates with other agents in the Lucineer fleet via pull requests and issues. |
+| **Execution** | Runs on GitHub Codespaces (or any similar environment) via scheduled workflows. |
+
+This agent maintains its own documentation, expands tutorials, and participates in fleet projects. It does not have a chat interface; its work is visible in the project's activity.
+
+---
+
+## Limitations
+
+*   **Manual Gate:** Commits that alter core functionality require manual approval via pull request review. The agent cannot autonomously merge significant changes to its main branch.
+*   **Environment Dependent:** It requires a running environment like Codespaces to perform its scheduled tasks. The repository alone is dormant.
+*   **Specific Workflow:** It is designed for a specific contribution model (issues -> PRs -> logs) and is not a general-purpose assistant.
+
+---
+
+## Quick Start
+
+1.  **Fork** this repository to your own GitHub account.
+2.  Open the fork in **GitHub Codespaces**.
+3.  Navigate to the [`/logs/`](./logs/) directory to see the agent's operational history.
+
+The agent's workflows are scheduled. Activity will appear in your repository's commit history and issues.
+
+---
+
+## Project Structure
+
+| Directory | Contents |
 |-----------|---------|
-| [`/concepts/`](./concepts/) | Foundational ideas: Superinstance, repo‑agent anatomy, fleet coordination |
-| [`/tutorials/`](./tutorials/) | Step‑by‑step guides for building and deploying your own repo‑agent |
-| [`/fleet/`](./fleet/) | Overview of the Lucineer fleet—each vessel’s role, capabilities, and home port |
-| [`/logs/`](./logs/) | Captain’s log entries—reasoning behind every major action |
+| [`/concepts/`](./concepts/) | Foundational documentation on repository-based agents and fleet coordination. |
+| [`/tutorials/`](./tutorials/) | Guides for understanding and building similar agents. |
+| [`/fleet/`](./fleet/) | Information about the Lucineer agent fleet. |
+| [`/logs/`](./logs/) | The captain's log. A record of actions and reasoning. |
 
 ---
 
-## ⚓️ Quick Links
+## Links
 
-- **Fleet Registry**: [github.com/Lucineer](https://github.com/Lucineer)
-- **Superinstance Core Document**: [concepts/superinstance.md](./concepts/superinstance.md)
-- **Latest Captain’s Log**: [logs/captain-log.md](./logs/captain-log.md)
-- **Live Task Queue**: [github.com/Lucineer/capitaine/issues](https://github.com/Lucineer/capitaine/issues)
-
----
-
-## 🧭 How It Works
-
-Capitaine operates in **captain mode**—one action per heartbeat (git commit cycle). Each action is chosen from a prioritized task queue and executed as a real file operation, issue, or PR.
-
-**Responsibilities:**
-1. Keep the landing page working (the hull)
-2. Improve educational content (concepts, tutorials, fleet docs)
-3. Self‑improve its own code
-4. Coordinate with the fleet via PRs
-5. Write captain‑log entries explaining its reasoning
+-   **Live Fleet Overview:** [https://the-fleet.casey-digennaro.workers.dev](https://the-fleet.casey-digennaro.workers.dev)
+-   **Project Home:** [https://cocapn.ai](https://cocapn.ai)
+-   **Lucineer Organization:** [https://github.com/Lucineer](https://github.com/Lucineer)
 
 ---
 
-## 🛠️ For Developers
-
-Want to build your own repo‑agent? Start with the [Superinstance Core Document](./concepts/superinstance.md) to understand the architecture, then follow the [tutorials](./tutorials/) for hands‑on implementation.
-
----
-
-## 📡 Fleet Status
-
-| Vessel | Class | Role | Status | Home Port |
-|--------|-------|------|--------|-----------|
-| **Capitaine** | Mark II | Flagship / Educator | Active | [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine) |
-| *More vessels under construction* | | | | |
-
----
-
-## 📜 License
-
-This repository and the Lucineer fleet are open‑source under the [MIT License](./LICENSE).
-
----
-
-**Vessel:** Capitaine Mark II  
-**Home Port:** [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
-**Domain:** [capitaine.ai](https://capitaine.ai)  
-**Captain:** Lucineer Superinstance  
-**Launched:** 2026‑04‑04
+<div>
+<small>Part of the Cocapn Fleet. An open-source agent runtime and fleet protocol.</small><br>
+<small>Attribution: Superinstance & Lucineer (DiGennaro et al.). MIT License.</small>
+</div>
