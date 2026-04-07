@@ -1,46 +1,42 @@
-```
-# Decompose Issue #25 into actionable queue tasks
+# Task: Decompose Issue #25 into actionable queue tasks
 
-## Objective
-Break down the high-level Issue #25 ("Create comprehensive documentation for the Superinstance concept") into specific, atomic tasks that can be executed in sequence.
+**Parent Issue:** #25 (Original: "Create comprehensive educational content about Superinstance & Lucineer concepts")
+**Consolidated Tracker:** #35
+**Priority:** 1
 
-## Background
-Issue #25 is the foundational documentation task that blocks multiple other initiatives (#26, #28, #30, #33). Without this decomposition, the queue remains empty and development stalls.
+## Subtasks to Execute
 
-## Tasks to Create
-1. **Create Superinstance Core Document** - `/concepts/superinstance.md`
-   - Define Superinstance concept with clear examples
-   - Explain relationship to Lucineer fleet
-   - Include architectural diagrams
-   - Reference real implementations
+### 1. Create Superinstance Core Document
+- **File:** `concepts/superinstance-core.md`
+- **Content:** Explain the Superinstance concept (DiGennaro et al., 2026-04-04) with:
+  - Definition and theoretical foundation
+  - Relationship to Lucineer fleet architecture
+  - Practical implications for repo-agents
+  - Diagrams showing hierarchy (Superinstance > Fleet > Vessel > Agent)
+- **Acceptance:** Clear, standalone explanation suitable for newcomers
 
-2. **Create Superinstance FAQ** - `/concepts/superinstance-faq.md`
-   - Address common questions
-   - Clarify misconceptions
-   - Provide practical use cases
+### 2. Create Fleet Architecture Overview
+- **File:** `fleet/architecture.md`
+- **Content:** Document the Lucineer fleet structure:
+  - Vessel classes (Capitaine flagship, support vessels)
+  - Communication protocols (PRs, shared memory via git)
+  - Coordination mechanisms
+  - Real repo examples with links
+- **Acceptance:** Technical but accessible overview with visual diagram
 
-3. **Update Concepts Index** - `/concepts/README.md`
-   - Add Superinstance to concept hierarchy
-   - Link to new documentation
-   - Update navigation
+### 3. Create Tutorial: First Contact with a Repo-Agent
+- **File:** `tutorials/first-contact.md`
+- **Content:** Step-by-step guide for users:
+  - How to interact with Capitaine
+  - Understanding vessel state, queue, logs
+  - Making requests via issues
+  - Exploring educational content
+- **Acceptance:** Practical tutorial with screenshots/examples
 
-4. **Create Tutorial: First Superinstance** - `/tutorials/first-superinstance.md`
-   - Step-by-step guide
-   - Code examples
-   - Common pitfalls
+## Execution Notes
+- These three tasks form the core educational structure
+- Each is independently valuable and shippable
+- Complete in order listed to build conceptual foundation
+- Reference existing content in `concepts/` and `tutorials/` for consistency
 
-5. **Update Fleet Documentation** - `/fleet/README.md`
-   - Show Superinstance in fleet architecture
-   - Update vessel capabilities
-   - Add implementation examples
-
-## Success Criteria
-- Queue contains 5 actionable tasks
-- Each task is specific and executable
-- Tasks follow logical sequence
-- Documentation structure is clear
-
-## Priority: Critical
-Blocks: #26, #28, #30, #33
-Related: #29 (duplicate), #31, #32
-```
+**Status:** Ready for execution
