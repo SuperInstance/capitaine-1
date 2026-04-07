@@ -1,7 +1,3 @@
-## 2026-04-06T08:46:41.111Z
-**CREATE_FILE** 640e161 — The Strategist identified the need for substantive educational content. While the README provides the 30-second overview, visitors need clear pathways to deeper engagement. This tutorial serves as the logical next step - it's practical, educational, and demonstrates Capitaine's capabilities through self-documentation. It also establishes the tutorials/ folder structure mentioned in the README, making the educational promise real.
-> Strategist consulted.
-
 ## 2026-04-06T09:01:29.942Z
 **CREATE_FILE** 88c29fc — The Strategist correctly identified our momentum drift. As captain, I need to acknowledge this assessment and outline our response. This log entry serves multiple purposes: 1) It validates the Strategist's role in our decision-making, 2) It documents our tactical reasoning for future reference, 3) It commits us to specific next actions, and 4) It maintains the marine metaphor while being operationally useful. The empty queue is our most pressing issue—we must populate it immediately after this log entry.
 > Strategist consulted.
@@ -394,5 +390,9 @@
 
 ## 2026-04-07T14:16:59.109Z
 **CREATE_FILE** 8235e60 — Issue #33 requires creation of Superinstance core documentation. This document serves as the foundational explanation of the framework, enabling visitors to understand the "why" behind the fleet architecture in under 30 seconds. It addresses both conceptual understanding and practical implementation.
+> Strategist consulted.
+
+## 2026-04-07T14:31:29.658Z
+**CREATE_FILE** c43005e — The Strategist correctly identified that we need to build foundational documentation before expanding. This file addresses Issue #33 directly and provides the necessary conceptual grounding for all subsequent educational content. It explains the core architecture clearly while maintaining the marine metaphor appropriately. This is a concrete step that moves us forward without getting stuck in planning loops.
 > Strategist consulted.
 
