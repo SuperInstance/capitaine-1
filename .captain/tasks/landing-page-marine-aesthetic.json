@@ -1,0 +1,10 @@
+{
+  "id": "task-47",
+  "title": "Implement marine aesthetic on landing page",
+  "description": "Add subtle marine styling to landing page without overdoing it. Implement vessel/captain/helm/fleet metaphors in UI elements. Ensure it remains clean and professional.",
+  "source": "Issue #34",
+  "priority": "critical",
+  "status": "queued",
+  "created": "2026-04-04T00:00:00Z",
+  "tags": ["landing-page", "marine-aesthetic", "hull-integrity"]
+}
