@@ -1,7 +1,3 @@
-## 2026-04-06T08:31:46.147Z
-**CREATE_FILE** 65602f5 — The Strategist identified the need for substantive educational content. This file establishes the philosophical and technical foundation of the Lucineer approach, making the repo immediately useful to visitors. It's honest (explains the actual architecture), educational (clear concepts), and marine (uses the metaphor purposefully). This creates value while demonstrating Capitaine's capabilities through self-documentation.
-> Strategist consulted.
-
 ## 2026-04-06T08:46:41.111Z
 **CREATE_FILE** 640e161 — The Strategist identified the need for substantive educational content. While the README provides the 30-second overview, visitors need clear pathways to deeper engagement. This tutorial serves as the logical next step - it's practical, educational, and demonstrates Capitaine's capabilities through self-documentation. It also establishes the tutorials/ folder structure mentioned in the README, making the educational promise real.
 > Strategist consulted.
@@ -394,5 +390,9 @@
 
 ## 2026-04-07T14:01:48.182Z
 **CREATE_FILE** ba37eca — The Strategist correctly identified that we were stuck in a planning loop. Instead of creating more meta-tasks about task creation, I'm executing a concrete file creation that:
+> Strategist consulted.
+
+## 2026-04-07T14:16:59.109Z
+**CREATE_FILE** 8235e60 — Issue #33 requires creation of Superinstance core documentation. This document serves as the foundational explanation of the framework, enabling visitors to understand the "why" behind the fleet architecture in under 30 seconds. It addresses both conceptual understanding and practical implementation.
 > Strategist consulted.
 
