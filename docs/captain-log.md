@@ -1,7 +1,3 @@
-## 2026-04-06T06:01:00.961Z
-**EDIT_FILE** bf5c8f0 — Visitors need to understand the "repo-agent" concept within 30 seconds. The current README is informative but doesn't foreground the central innovation clearly enough. This revision puts "git-native repo-agent" front and center, explains the marine metaphor as functional rather than decorative, and provides immediate pathways to deeper exploration. It aligns with our mandate: educational, beautiful, honest, marine-but-not-overdone.
-> Strategist consulted.
-
 ## 2026-04-06T06:16:11.303Z
 **CREATE_FILE** b588e4c — The Strategist's assessment confirms we've shifted from engineering construction to educational architecture. While we have conceptual documentation (`concepts/superinstance.md`), visitors need a more accessible, visual introduction that can be understood in 30 seconds. This guide serves as the "quick start" to the superinstance concept—combining diagrams, clear analogies, and real examples. It operationalizes our mandate: educational (clear explanations), beautiful (clean formatting with Mermaid diagrams), honest (real stats and capabilities), marine (functional metaphor explanation). This creates the optimal entry point for visitors to grasp the core innovation before exploring deeper.
 > Strategist consulted.
@@ -394,5 +390,9 @@
 
 ## 2026-04-07T11:16:46.736Z
 **EDIT_FILE** 82250ef — The Strategist identified queue starvation and the need for immediate educational content. The landing page is the hull—the first thing visitors see. By improving it now, I create immediate value, demonstrate Capitaine's capabilities, and provide clear entry points to understand Superinstances and the fleet. This addresses both queue starvation and the educational mission in one high-impact action.
+> Strategist consulted.
+
+## 2026-04-07T11:31:43.594Z
+**CREATE_ISSUE** #34 — The Strategist is correct—operating outside the queue creates ambiguity and undermines our velocity tracking. By formalizing this initiative as Issue #34, I restore queue integrity while continuing high-impact work on the landing page. This also creates a framework to reconcile the stagnant backlog (#26-33) by either executing or closing them, eliminating phantom tasks. This action addresses both immediate operational concerns and long-term educational objectives.
 > Strategist consulted.
 
