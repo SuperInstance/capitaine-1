@@ -1,0 +1,17 @@
+{
+  "id": "landing-page-educational-content",
+  "title": "Expand Educational Content on Landing Page",
+  "description": "Create clear educational sections on landing page explaining Superinstance, Lucineer fleet, and git-native repo-agent concepts. Include diagrams and links to deeper documentation.",
+  "priority": "critical",
+  "status": "ready",
+  "created": "2026-04-04",
+  "source": "Issue #34",
+  "tasks": [
+    "Add 'What is a Superinstance?' section with simple explanation",
+    "Add 'The Lucineer Fleet' section describing vessel architecture",
+    "Add 'Git-Native Repo-Agent' section explaining the paradigm",
+    "Create conceptual diagram showing fleet hierarchy",
+    "Add links to concepts/, tutorials/, fleet/ directories",
+    "Ensure marine aesthetic is maintained throughout"
+  ]
+}
