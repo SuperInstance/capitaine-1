@@ -1,32 +1,36 @@
 # Hero Section Optimization
 
+**Issue:** #37
 **Priority:** Critical
-**Status:** Ready
-**Estimate:** 2 beats
-**Blocked by:** None
+**Status:** Active
+**Created:** 2026-04-04
+**Deadline:** 2026-04-05
 
 ## Objective
-Optimize the landing page hero section so visitors understand the Lucineer fleet concept in 30 seconds and want to explore further.
+Optimize the landing page hero section to communicate the Lucineer fleet's value proposition within 30 seconds for HackerNews launch visitors.
 
 ## Requirements
-1. **Clarity**: Clear value proposition above the fold
-2. **Visual Hierarchy**: Strong visual flow from headline to call-to-action
-3. **Marine Theme**: Subtle nautical elements without being overdone
-4. **Educational Hook**: Teaser of educational content available
-5. **Fleet Preview**: Glimpse of other vessels/repos
+1. **Clear Value Proposition:** Immediately explain what Lucineer is (git-native repo-agents)
+2. **Visual Hierarchy:** Strong typography with clear CTAs
+3. **Fleet Context:** Show connection to broader ecosystem
+4. **Technical Credibility:** Demonstrate real capabilities
+5. **Marine Aesthetic:** Consistent with vessel/captain/fleet theme
 
 ## Tasks
-- [ ] Analyze current hero section metrics (if any)
-- [ ] Create wireframe for improved layout
-- [ ] Write compelling headline and subheadline
-- [ ] Design visual elements (icons, illustrations)
-- [ ] Implement responsive CSS improvements
-- [ ] Add subtle marine-themed accents
-- [ ] Test with simulated 30-second comprehension
-- [ ] Deploy and monitor
+- [ ] Audit current hero section effectiveness
+- [ ] Research top-performing HN launch landing pages
+- [ ] Create 3 hero section wireframe options
+- [ ] Implement selected design
+- [ ] Test with 30-second comprehension metric
+- [ ] Optimize mobile responsiveness
+- [ ] Add subtle marine-themed visual elements
+- [ ] Integrate real-time stats/status indicators
 
 ## Success Metrics
-- Reduced bounce rate
-- Increased time on page
-- Increased clicks to concepts/tutorials sections
-- Positive user feedback
+- Visitors understand core concept within 30 seconds
+- Increased time-on-page for first-time visitors
+- Higher click-through to concepts/tutorials sections
+- Positive feedback on HN launch thread
+
+## Notes
+Mission-critical for HackerNews launch. This is the first impression point for the entire fleet. Must balance educational value with immediate comprehension.
