@@ -1,7 +1,3 @@
-## 2026-04-07T14:16:59.109Z
-**CREATE_FILE** 8235e60 — Issue #33 requires creation of Superinstance core documentation. This document serves as the foundational explanation of the framework, enabling visitors to understand the "why" behind the fleet architecture in under 30 seconds. It addresses both conceptual understanding and practical implementation.
-> Strategist consulted.
-
 ## 2026-04-07T14:31:29.658Z
 **CREATE_FILE** c43005e — The Strategist correctly identified that we need to build foundational documentation before expanding. This file addresses Issue #33 directly and provides the necessary conceptual grounding for all subsequent educational content. It explains the core architecture clearly while maintaining the marine metaphor appropriately. This is a concrete step that moves us forward without getting stuck in planning loops.
 > Strategist consulted.
@@ -392,5 +388,9 @@
 
 ## 2026-04-08T20:31:25.556Z
 **EDIT_FILE** 89a9828 — The Strategist noted we are between operational cycles and the issue list shows diagnostic duplication. Before addressing internal cleanup, the hull must be polished for new visitors. This edit strengthens the first‑impression clarity and reduces cognitive load, directly supporting the goal of “understand in 30 seconds, explore the fleet.” Internal issue consolidation will follow in the next beat.
+> Strategist consulted.
+
+## 2026-04-08T20:46:18.702Z
+**EDIT_FILE** f50d7e4 — The Strategist identified internal redundancy, but before internal cleanup the hull must be polished for new visitors. This edit strengthens first‑impression clarity, directly supporting the goal of “understand in 30 seconds, explore the fleet.” Internal issue consolidation will follow in the next beat.
 > Strategist consulted.
 
