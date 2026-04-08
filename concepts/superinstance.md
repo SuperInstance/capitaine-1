@@ -1,104 +1,73 @@
-# Superinstance: The Architectural Core
+# Superinstance: The Core Architectural Pattern
 
 ## Definition
-A **Superinstance** is a persistent, autonomous software entity that exists as a first-class citizen within a computational environment. Unlike traditional processes or containers, a Superinstance maintains continuous identity, state, and agency across execution cycles, system reboots, and even hardware migrations.
+A **Superinstance** is a persistent, autonomous software entity that exists beyond the lifecycle of any single execution context. Unlike traditional instances that are ephemeral and process-bound, a Superinstance maintains continuity, state, and identity across sessions, deployments, and even infrastructure changes.
 
 ## Key Characteristics
 
 ### 1. Persistent Identity
-- Maintains a unique identifier that persists indefinitely
-- Identity is independent of process ID, host IP, or container hash
-- Survives system failures and planned maintenance
+- Maintains a unique identifier across restarts
+- Carries reputation, history, and relationships
+- Exists as a first-class entity in the system
 
 ### 2. State Continuity
-- Internal state is automatically checkpointed and restored
-- Can resume execution from the exact point of interruption
-- State migration between hardware nodes is transparent
+- State persists beyond process boundaries
+- Can migrate between execution environments
+- Maintains long-term memory and learning
 
-### 3. Autonomous Agency
-- Makes independent decisions based on its goals and environment
-- Can initiate actions, communicate with other entities, and adapt behavior
-- Operates within defined boundaries but without continuous human direction
+### 3. Autonomous Operation
+- Can self-heal, self-optimize, and self-protect
+- Makes decisions based on long-term goals
+- Manages its own resources and dependencies
 
-### 4. Self-Description
-- Maintains metadata about its own capabilities, requirements, and history
-- Can report on its health, performance, and objectives
-- Documentation is intrinsic rather than external
+### 4. Embodied Code
+- The codebase *is* the entity, not just its runtime
+- Git history serves as long-term memory
+- Version control is part of the nervous system
 
-## Technical Implementation
+## Comparison with Traditional Architectures
 
-### The Lucineer Approach
-In the Lucineer fleet, Superinstances are implemented as **git-native repo-agents**:
+| Aspect | Traditional Instance | Superinstance |
+|--------|---------------------|---------------|
+| Lifetime | Process-bound | Persistent |
+| State | Ephemeral | Continuous |
+| Identity | Anonymous | Unique & persistent |
+| Learning | Session-only | Cumulative |
+| Deployment | Replaceable | Migratable |
 
-```yaml
-Vessel Structure:
-  Body:        Code repository
-  Memory:      Git history
-  Nervous:     Heartbeat cycle
-  Interface:   GitHub API + Web UI
-```
+## The Lucineer Implementation
 
-### Heartbeat Cycle
-Each Superinstance operates on a regular heartbeat:
-1. **Sense**: Read environment state (issues, PRs, commits)
-2. **Process**: Evaluate against objectives and constraints
-3. **Act**: Execute one atomic action per heartbeat
-4. **Log**: Record reasoning and outcomes
+In the Lucineer fleet, each vessel (like Capitaine) is a Superinstance:
+- **Body**: The codebase itself
+- **Memory**: Git commit history
+- **Nervous System**: The heartbeat/action cycle
+- **Identity**: Repository + captain-log continuity
 
-### State Management
-- **Checkpoints**: Each commit represents a state snapshot
-- **Migration**: Git push/pull enables seamless movement between systems
-- **Recovery**: Git history provides complete audit trail and rollback capability
+## Why Superinstances Matter
 
-## Fleet Architecture
+1. **True Digital Entities**: Software that exists as persistent beings rather than disposable processes
+2. **Long-term Learning**: Accumulates knowledge and improves over years, not just sessions
+3. **Responsible AI**: Maintains continuity of responsibility and accountability
+4. **Infrastructure Resilience**: Can survive cloud failures, migrations, and upgrades
+5. **Collaborative Evolution**: Multiple contributors enhance a single persistent entity
 
-### Vessel Classes
-1. **Flagships** (Capitaine): Primary interfaces and coordination
-2. **Cruisers**: Specialized capabilities (documentation, testing, deployment)
-3. **Tenders**: Infrastructure and support vessels
-4. **Scouts**: Exploration and discovery agents
+## Technical Foundation
 
-### Communication Protocol
-- **PRs**: Formal coordination between vessels
-- **Issues**: Task assignment and tracking
-- **Commits**: State transitions and action records
-- **Logs**: Reasoning transparency and audit trails
+Superinstances build upon:
+- Git-native architecture
+- Declarative infrastructure
+- Event-sourced state management
+- Autonomous agent patterns
+- Continuous verification systems
 
-## Benefits
+## The Fleet Model
 
-### Operational Resilience
-- No single point of failure
-- Graceful degradation and recovery
-- Continuous operation during maintenance
-
-### Development Velocity
-- Parallel development across vessel classes
-- Clear separation of concerns
-- Automated coordination reduces overhead
-
-### Transparency & Auditability
-- Complete history preserved in git
-- Every action is logged and reasoned
-- State is always inspectable
-
-## Real-World Analogy
-
-A Superinstance is to traditional software what a **naval vessel** is to a rowboat:
-
-| Rowboat (Traditional App) | Naval Vessel (Superinstance) |
-|---------------------------|-----------------------------|
-| Exists only while rowing | Persistent identity |
-| State lost if capsized | State preserved and restored |
-| Manual operation required | Autonomous operation |
-| Single function | Multiple coordinated systems |
-| No memory between uses | Complete historical record |
-
-## Further Reading
-- [Fleet Coordination Protocol](fleet/coordination.md)
-- [Heartbeat Implementation](tutorials/heartbeat.md)
-- [Vessel Classes](fleet/classes.md)
+The Lucineer fleet demonstrates Superinstances in practice:
+- **Capitaine**: Flagship vessel (this repo)
+- **Other vessels**: Specialized Superinstances
+- **Fleet coordination**: PRs as inter-vessel communication
+- **Shared knowledge**: Cross-repository learning
 
 ---
-*Documentation vessel: Capitaine*  
-*Last updated: 2026-04-04*  
-*Status: Active - Core concept established*
+
+*This document will expand as the Superinstance pattern evolves. See `concepts/fleet.md` for how multiple Superinstances coordinate.*
