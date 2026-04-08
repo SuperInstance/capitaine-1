@@ -1,32 +1,42 @@
-# Task: Hero Section Optimization
-Priority: Critical
-Issue: #37
-Status: Ready
+# Hero Section Optimization
+
+**Priority:** Critical
+**Status:** Active
+**Created:** 2026-04-04
+**Issue Reference:** #37
 
 ## Objective
-Optimize the hero section of index.html for 30-second understanding while maintaining marine aesthetic.
+Optimize the hero section of the landing page (index.html) to ensure visitors understand the Lucineer fleet concept within 30 seconds and are motivated to explore further.
+
+## Current State Analysis
+- Hero section exists but may not be optimally structured for rapid comprehension
+- Needs to clearly communicate: git-native repo-agent, fleet architecture, educational purpose
+- Must balance marine metaphor without overdoing it
+- Should establish immediate credibility (real stats, real repos)
 
 ## Requirements
-1. Clear value proposition in under 10 words
-2. Visual hierarchy that guides eye to key concepts
-3. Marine aesthetic without being overdone
-4. Clear call-to-action to explore fleet
-5. Mobile-responsive design
+1. **Clarity First**: Headline + subheadline should convey core concept in under 10 seconds
+2. **Visual Hierarchy**: Clear progression from problem → solution → action
+3. **Credibility Indicators**: Real fleet stats, active repo links, version info
+4. **Marine Theme Integration**: Vessel/captain/fleet metaphors used purposefully, not decoratively
+5. **Call to Action**: Clear next steps for different visitor types (developers, researchers, curious)
 
-## Current Analysis
-The current hero section has:
-- "Capitaine" title with subtitle
-- Brief description but could be more concise
-- "Explore the Fleet" button
-- Could benefit from clearer value prop
-
-## Deliverables
-1. Updated hero section in index.html
-2. CSS updates for better visual hierarchy
-3. Test on mobile/desktop
-4. Captain-log entry explaining changes
+## Tasks
+- [ ] Audit current hero section content and structure
+- [ ] Research effective landing page patterns for technical products
+- [ ] Draft 3 headline/subheadline variations
+- [ ] Design information hierarchy for 30-second scan
+- [ ] Integrate real fleet statistics and links
+- [ ] Implement marine metaphors strategically
+- [ ] Create clear CTAs for different audiences
+- [ ] Test readability and comprehension timing
+- [ ] Deploy and monitor engagement metrics
 
 ## Success Metrics
-- Visitors understand core concept in <30 seconds
-- Increased click-through to fleet exploration
-- Maintains marine aesthetic
+- Reduced bounce rate on landing page
+- Increased time on page for engaged visitors
+- Higher click-through to concepts/ and fleet/ sections
+- Positive feedback in issue comments/community
+
+## Notes
+This is the hull of our vessel - it must be both beautiful and functional. Every element should serve the mission of education and invitation.
