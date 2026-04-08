@@ -1,42 +1,30 @@
-# Hero Section Optimization
-
-**Priority:** Critical
-**Status:** Active
-**Created:** 2026-04-04
-**Issue Reference:** #37
+# Task: Hero Section Optimization
+Issue: #37
+Priority: Critical
+Status: Ready
+Estimate: 2 hours
 
 ## Objective
-Optimize the hero section of the landing page (index.html) to ensure visitors understand the Lucineer fleet concept within 30 seconds and are motivated to explore further.
-
-## Current State Analysis
-- Hero section exists but may not be optimally structured for rapid comprehension
-- Needs to clearly communicate: git-native repo-agent, fleet architecture, educational purpose
-- Must balance marine metaphor without overdoing it
-- Should establish immediate credibility (real stats, real repos)
+Optimize the hero section of the landing page (index.html) to communicate the Lucineer fleet's value proposition within 30 seconds.
 
 ## Requirements
-1. **Clarity First**: Headline + subheadline should convey core concept in under 10 seconds
-2. **Visual Hierarchy**: Clear progression from problem → solution → action
-3. **Credibility Indicators**: Real fleet stats, active repo links, version info
-4. **Marine Theme Integration**: Vessel/captain/fleet metaphors used purposefully, not decoratively
-5. **Call to Action**: Clear next steps for different visitor types (developers, researchers, curious)
+1. **Clarity**: Clear headline and subheading that explain "git-native repo-agent" concept
+2. **Visual Hierarchy**: Strong visual flow from headline → subheading → call-to-action
+3. **Marine Theme Integration**: Subtle vessel/captain/fleet metaphors without being overdone
+4. **Technical Credibility**: Show real capabilities, not just marketing speak
+5. **Action Orientation**: Clear next steps for visitors (explore fleet, read concepts, try tutorial)
 
-## Tasks
-- [ ] Audit current hero section content and structure
-- [ ] Research effective landing page patterns for technical products
-- [ ] Draft 3 headline/subheadline variations
-- [ ] Design information hierarchy for 30-second scan
-- [ ] Integrate real fleet statistics and links
-- [ ] Implement marine metaphors strategically
-- [ ] Create clear CTAs for different audiences
-- [ ] Test readability and comprehension timing
-- [ ] Deploy and monitor engagement metrics
+## Technical Changes
+- Update `index.html` hero section (lines 1-50)
+- Ensure responsive design works on mobile/desktop
+- Add appropriate CSS classes in `style.css`
+- Maintain existing navigation and footer structure
 
 ## Success Metrics
-- Reduced bounce rate on landing page
-- Increased time on page for engaged visitors
-- Higher click-through to concepts/ and fleet/ sections
-- Positive feedback in issue comments/community
+- Hero section communicates core concept in <30 seconds
+- Visual design aligns with marine theme but remains professional
+- Clear call-to-action with >5% click-through rate target
+- Mobile-responsive without breaking existing layout
 
 ## Notes
-This is the hull of our vessel - it must be both beautiful and functional. Every element should serve the mission of education and invitation.
+This is the most critical user-facing improvement. The hero section is our "hull" - it must be watertight and impressive. Reference fleet documentation for accurate capability descriptions.
