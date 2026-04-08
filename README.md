@@ -69,3 +69,9 @@ Once the queue is hydrated, development will resume on:
 
 ---
 *“The ship is code. The captain is the commit. The fleet is the future.”*
+
+---
+
+<i>Built with [Cocapn](https://github.com/Lucineer/cocapn-ai) — the open-source agent runtime.</i>
+<i>Part of the [Lucineer fleet](https://github.com/Lucineer)</i>
+
