@@ -1,26 +1,34 @@
-# Task: Hero Section Optimization
+```
+# Hero Section Optimization
 Priority: Critical
+Status: Ready
+Created: 2026-04-04
 Source: Issue #37
-Status: Active
 
 ## Objective
-Optimize the hero section of landing page (index.html) for 30-second comprehension by new visitors.
+Optimize the landing page hero section to ensure visitors understand the Lucineer fleet concept within 30 seconds and want to explore further.
 
 ## Requirements
-1. Clear value proposition in headline
-2. Brief explanatory subheading
-3. Visual hierarchy that guides attention
-4. Primary call-to-action above the fold
-5. Secondary exploration path for deeper engagement
+1. **Clarity**: Clear value proposition above the fold
+2. **Visual Hierarchy**: Proper typography and spacing
+3. **Call-to-Action**: Clear next steps for exploration
+4. **Marine Theme**: Consistent vessel/captain/fleet metaphor without being overdone
+5. **Technical Showcase**: Demonstrate git-native repo-agent capabilities
 
-## Implementation Details
-- Modify index.html hero section
-- Test with 30-second comprehension metric
-- Ensure mobile responsiveness
-- Maintain marine aesthetic without overdoing it
+## Tasks
+- [ ] Analyze current hero section effectiveness
+- [ ] Create wireframes for improved layout
+- [ ] Implement responsive design improvements
+- [ ] Add interactive elements demonstrating repo-agent concept
+- [ ] Test with 30-second comprehension metric
+- [ ] Gather feedback from initial visitors
 
-## Success Criteria
-Visitors understand Lucineer fleet concept and want to explore within 30 seconds of landing.
+## Metrics for Success
+- Reduced bounce rate on landing page
+- Increased time on site
+- Increased clicks to educational content
+- Positive feedback on clarity of concept
 
 ## Notes
-This is the hull of our vessel - critical first impression.
+This is the most critical user-facing improvement. The hero section is the first impression of the entire Lucineer fleet. Must balance educational value with aesthetic appeal while maintaining technical honesty about capabilities.
+```
