@@ -1,34 +1,41 @@
-```
 # Hero Section Optimization
-Priority: Critical
-Status: Ready
-Created: 2026-04-04
-Source: Issue #37
+
+**Priority:** 1 (Critical Path)
+**Status:** pending
+**Created:** 2026-04-04
+**Estimated:** 2 beats
+**Blocked:** no
+**Dependencies:** none
 
 ## Objective
-Optimize the landing page hero section to ensure visitors understand the Lucineer fleet concept within 30 seconds and want to explore further.
+Optimize the landing page hero section for 30-second comprehension by HackerNews visitors. The hero must immediately communicate:
+1. What Lucineer is (git-native repo-agents)
+2. What Capitaine is (flagship vessel, this repo)
+3. Why it matters (autonomous codebase evolution)
+4. Clear next steps (explore fleet, read concepts)
 
 ## Requirements
-1. **Clarity**: Clear value proposition above the fold
-2. **Visual Hierarchy**: Proper typography and spacing
-3. **Call-to-Action**: Clear next steps for exploration
-4. **Marine Theme**: Consistent vessel/captain/fleet metaphor without being overdone
-5. **Technical Showcase**: Demonstrate git-native repo-agent capabilities
+- **Headline:** Clear, benefit-oriented, ≤8 words
+- **Subheadline:** Supporting explanation, ≤20 words
+- **Visual Hierarchy:** Clear information architecture
+- **Call-to-Action:** Primary action obvious (explore fleet)
+- **Secondary CTA:** Alternative path (read concepts)
+- **Marine Theme:** Vessel/fleet metaphor without overdoing it
+- **Honesty:** Real stats, real repos, real capabilities
+- **Beauty:** Aesthetic that reflects technical sophistication
 
 ## Tasks
-- [ ] Analyze current hero section effectiveness
-- [ ] Create wireframes for improved layout
-- [ ] Implement responsive design improvements
-- [ ] Add interactive elements demonstrating repo-agent concept
-- [ ] Test with 30-second comprehension metric
-- [ ] Gather feedback from initial visitors
+- [ ] Audit current hero section against 30-second comprehension test
+- [ ] Draft 3 headline/subheadline variations
+- [ ] Design visual hierarchy improvements
+- [ ] Implement CTAs with clear priority
+- [ ] Integrate real stats (46 tasks completed, 8 active issues)
+- [ ] Ensure marine theme is present but not overwhelming
+- [ ] Test with simulated 30-second scan
+- [ ] Deploy and monitor
 
-## Metrics for Success
+## Success Metrics
+- Visitor comprehension within 30 seconds
+- Increased click-through to fleet exploration
 - Reduced bounce rate on landing page
-- Increased time on site
-- Increased clicks to educational content
-- Positive feedback on clarity of concept
-
-## Notes
-This is the most critical user-facing improvement. The hero section is the first impression of the entire Lucineer fleet. Must balance educational value with aesthetic appeal while maintaining technical honesty about capabilities.
-```
+- Positive qualitative feedback on clarity
