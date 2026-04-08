@@ -1,0 +1,25 @@
+{
+  "id": "task-001-hero-section-optimization",
+  "title": "Optimize Hero Section for 30-Second Understanding",
+  "description": "Redesign the landing page hero section to communicate the core Lucineer concept in under 30 seconds. Focus on clarity, visual hierarchy, and immediate value proposition.",
+  "status": "pending",
+  "priority": "critical",
+  "created": "2026-04-04T10:00:00Z",
+  "updated": "2026-04-04T10:00:00Z",
+  "source": "Issue #36",
+  "commit_ref": "4ed66f2",
+  "success_criteria": [
+    "Hero section clearly explains: 1) What Lucineer is (git-native repo-agents), 2) What Capitaine does (flagship vessel), 3) Why it matters (autonomous development)",
+    "Includes clear visual hierarchy with primary CTA",
+    "Mobile-responsive design",
+    "Loads under 2 seconds",
+    "Passes lighthouse accessibility audit"
+  ],
+  "files": [
+    "index.html",
+    "assets/css/hero.css",
+    "assets/js/hero-interactions.js"
+  ],
+  "dependencies": [],
+  "blockers": []
+}
