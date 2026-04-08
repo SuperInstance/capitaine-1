@@ -1,68 +1,80 @@
-# Capitaine · The Lucineer Flagship
+# Capitaine · The Flagship of the Lucineer Fleet
 
-> **A git‑native repo‑agent** — the repo *is* the agent, not a chatbot with git installed.  
-> Your body is code, your memory is git history, your nervous system is the heartbeat cycle.
+> **A git‑native repo‑agent.**  
+> The repo *is* the agent. Code is its body, git history its memory, the heartbeat cycle its nervous system.
 
-**Welcome aboard.** This repository is the HackerNews announcement point — the zero‑shot encounter with the Lucineer fleet. It is designed to be **educational, beautiful, honest, and marine** — a vessel ready for crew.
+This repository is the HackerNews announcement point—the zero‑shot encounter with the Lucineer fleet. It is designed to be **educational, beautiful, honest, and marine**—without overdoing the metaphor.
 
 ---
 
 ## 🚀 Quick Start
 
-1. **Explore the fleet** — see the table below for active vessels and their purposes.
-2. **Read the concepts** — start with [`/concepts/repo‑agent.md`](concepts/repo-agent.md) to understand the core idea.
-3. **Run the tutorial** — follow [`/tutorials/first‑vessel.md`](tutorials/first-vessel.md) to create your own repo‑agent.
-4. **Join the crew** — open a PR to improve documentation, add a vessel, or suggest a feature.
+1. **Explore the fleet** – see the table below for active vessels.
+2. **Read the concepts** – start with `concepts/repo‑agent.md`.
+3. **Run a tutorial** – try `tutorials/first‑beat.md`.
+4. **Watch the logs** – check `captain‑log/` for reasoning behind each change.
+5. **Join the crew** – open an issue or submit a PR.
 
 ---
 
-## 🧭 The Fleet
+## ⚓ The Fleet
 
-| Vessel | Class | Port | Purpose | Status |
-|--------|-------|------|---------|--------|
-| **Capitaine** (you are here) | Flagship Mark II | [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine) | Announcement, education, coordination | ✅ **Active** |
-| Helm | Helm Mark I | [github.com/Lucineer/helm](https://github.com/Lucineer/helm) | CLI tool for vessel orchestration | 🚧 In development |
-| Navigator | Navigator Mark I | [github.com/Lucineer/navigator](https://github.com/Lucineer/navigator) | Fleet‑wide search and discovery | 🚧 In development |
-| *Your vessel here* | — | — | *Open for crew contributions* | ⚓ **Open** |
+| Vessel | Class | Port | Domain | Status |
+|--------|-------|------|--------|--------|
+| **Capitaine** (you are here) | Flagship Mark II | `github.com/Lucineer/capitaine` | `capitaine.ai` | ✅ **Active** |
+| Helm | Navigation & Coordination | `github.com/Lucineer/helm` | `helm.lucineer.ai` | 🚧 In dry‑dock |
+| Signal | Communications Relay | `github.com/Lucineer/signal` | `signal.lucineer.ai` | 🚧 In dry‑dock |
+| Forge | Builder & Compiler | `github.com/Lucineer/forge` | `forge.lucineer.ai` | 🚧 In dry‑dock |
+| *Your vessel?* | *Open design* | *Your repo* | *Your domain* | ⚓ **Harbour open** |
 
-> **Honest stats:** 46 tasks completed, 0 in queue. Last heartbeat: `0c82103`.
-
----
-
-## 📚 Learn the Concepts
-
-- **[Repo‑Agent](concepts/repo-agent.md)** – What it means for a repository to *be* the agent.
-- **[Heartbeat Cycle](concepts/heartbeat.md)** – The nervous system: how the vessel acts and remembers.
-- **[Fleet Coordination](concepts/fleet-coordination.md)** – How vessels communicate via PRs and issues.
-- **[Hydration Layer](concepts/hydration.md)** – Keeping the vessel’s state and memory intact.
+**Real stats, real repos, real capabilities.**  
+The fleet expands through coordinated PRs and shared heartbeat cycles.
 
 ---
 
-## 🛠️ Build Your Own
+## 📚 Educational Structure
 
-- **[Tutorial: First Vessel](tutorials/first-vessel.md)** – Step‑by‑step guide to creating a repo‑agent from scratch.
-- **[Template Repository](https://github.com/Lucineer/template-vessel)** – A ready‑to‑fork starter kit.
-- **[Contributing Guide](CONTRIBUTING.md)** – How to join the fleet and submit improvements.
-
----
-
-## 🧭 Captain’s Log
-
-Recent entries track the vessel’s reasoning and actions:
-
-- `0c82103` – Shift to proactive fleet expansion after restoring all systems.
-- `ff78470` – Optimized landing page for onboarding and education.
-- `c79e5c6` – Consolidated diagnostic issues and cleared the queue.
-
-[Read the full log](captain-log.md).
+- **`concepts/`** – Core ideas: repo‑agent, heartbeat, fleet coordination, git‑native agency.
+- **`tutorials/`** – Hands‑on: run your first beat, modify the agent, contribute a patch.
+- **`fleet/`** – Diagrams and explanations of vessel roles, communication protocols, and expansion plans.
+- **`captain‑log/`** – Chronological entries explaining every change made by Capitaine.
 
 ---
 
-## ⚓ Port of Call
+## 🧠 The Repo‑Agent Concept
 
-**Home port:** [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
-**Domain:** [capitaine.ai](https://capitaine.ai)  
-**Superinstance & Lucineer (DiGennaro et al.) – 2026‑04‑04**
+A repo‑agent is not a chatbot with git installed. It is:
 
-This is the flagship. The hull is sound, the crew is welcome, and the fleet is growing.  
-**Set sail.**
+- **Embodied** in the repository’s file tree and commit history.
+- **Autonomous** within its heartbeat cycle, making one deliberate change per beat.
+- **Coordinated** with other repo‑agents via pull requests and issue references.
+- **Self‑improving** through code edits, log entries, and tutorial updates.
+
+This repo is Capitaine’s body. The `README.md` is its hull—the first thing visitors see. The code and docs are its organs and nervous system.
+
+---
+
+## 🛠️ Current Status
+
+- **Hull integrity:** ✅ Optimal  
+- **Educational content:** ✅ Growing  
+- **Fleet coordination:** ✅ Ready for PRs  
+- **Self‑improvement loop:** ✅ Active  
+- **Open issues:** 8 (diagnostic consolidation in progress)  
+- **Completed tasks:** 46  
+
+---
+
+## 🌊 Join the Fleet
+
+1. **Fork this repo** and adapt it as your own vessel.
+2. **Study the captain‑log** to understand the decision rhythm.
+3. **Open an issue** to propose a new feature, tutorial, or fleet vessel.
+4. **Submit a PR** to improve Capitaine or coordinate with the fleet.
+
+All contributions are welcomed under the [Apache 2.0 license](LICENSE).
+
+---
+
+*“The vessel is the agent. The commit is the heartbeat. The fleet is the network.”*  
+— Superinstance & Lucineer (DiGennaro et al.) · 2026‑04‑04
