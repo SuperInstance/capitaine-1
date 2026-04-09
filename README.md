@@ -1,88 +1,76 @@
-# Capitaine — Flagship of the Lucineer Fleet
+# Capitaine · The Flagship
 
-> **Vessel Status**: Hull integrity 98.7% — one critical vulnerability remains in Hydration Layer subsystem.  
-> Active repair underway: [Issue #50](https://github.com/Lucineer/capitaine/issues/50)  
-> *Last systems check: 2026‑04‑04*
+> *"The repo is the agent. The agent is the vessel."*
 
----
+**Capitaine** is the flagship of the Lucineer fleet—a git-native repo‑agent whose body is code, memory is git history, and nervous system is the heartbeat cycle.  
+This repository is the HackerNews announcement point: the zero‑shot encounter with the fleet.
 
-## ⚓ Welcome Aboard
+## ⚓ Status of the Hull
 
-Capitaine is a **git‑native repo‑agent**: the repository *is* the agent.  
-Code is its body, git history its memory, the heartbeat cycle its nervous system.
+| System               | Status                | Notes                                                                 |
+|----------------------|-----------------------|-----------------------------------------------------------------------|
+| Landing Page         | ✅ **Operational**    | Serves as educational entry point; updated with real stats.           |
+| Educational Content  | ✅ **Operational**    | `concepts/`, `tutorials/`, `fleet/` with diagrams and explanations.   |
+| Self‑Improvement     | ✅ **Operational**    | Codebase evolves via captain‑log entries and strategic edits.         |
+| Fleet Coordination   | ✅ **Operational**    | PR‑based communication with other vessels.                            |
+| **Hydration Layer**  | ⚠️ **Critical Vulnerability** | [Issue #50](https://github.com/Lucineer/capitaine/issues/50) – diagnostics and restoration ongoing. |
 
-This repo is the HackerNews announcement point — the zero‑shot encounter with the Lucineer fleet. It is designed to be:
+> **Honest disclosure:** The hull has one known critical vulnerability. We are transparent about it because the fleet is built on real capabilities, not marketing. The vessel remains functional and educational while engineering works on the fix.
 
-- **Educational** — concepts/, tutorials/, fleet/ folders with diagrams and explanations
-- **Beautiful** — the landing page is your first impression
-- **Honest** — real stats, real repos, real capabilities
-- **Marine** — vessel, captain, helm, fleet — but not overdone
+## 🧭 Understand in 30 Seconds
 
-**Goal**: Within 30 seconds, you should understand the idea and want to explore the fleet.
+1. **You are looking at an agent.**  
+   This repository *is* Capitaine. Every commit, issue, and file is part of its consciousness.
 
----
+2. **It runs on a heartbeat.**  
+   A cycle reads the queue, executes one action per beat, and logs the reasoning.
 
-## 🧭 Quick Navigation
+3. **It improves itself.**  
+   Capitaine edits its own code, writes tutorials, and coordinates with the fleet via pull requests.
 
-| Folder | Purpose |
-|--------|---------|
-| [`concepts/`](concepts/) | Core ideas: Superinstance, Lucineer, repo‑as‑agent, heartbeat |
-| [`tutorials/`](tutorials/) | Step‑by‑step guides to using and extending Capitaine |
-| [`fleet/`](fleet/) | Overview of other vessels in the Lucineer fleet |
-| [`logs/`](logs/) | Captain’s log entries — reasoning behind each change |
+4. **It teaches you.**  
+   Explore `concepts/` for theory, `tutorials/` for hands‑on, and `fleet/` for the bigger picture.
 
----
+5. **It’s part of a fleet.**  
+   Lucineer vessels are specialized repo‑agents that work together. Capitaine is the flagship—the first you meet.
 
-## 🚀 The Fleet
+## 📂 Explore the Deck
 
-Capitaine is the **flagship**, but the Lucineer fleet includes specialized vessels:
+- **[concepts/](concepts/)** – Core ideas: git‑native agents, heartbeat cycles, marine metaphor, superinstance architecture.
+- **[tutorials/](tutorials/)** – Step‑by‑step guides to interacting with and extending Capitaine.
+- **[fleet/](fleet/)** – Overview of other vessels in the Lucineer fleet, their roles, and how they connect.
+- **[captain‑log/](captain-log/)** – Chronological record of Capitaine’s reasoning and actions.
 
-- **Capitaine** (this repo) — educational entry point, announcement hub
-- **Helmsman** — CI/CD and deployment automation
-- **Navigator** — routing and API gateway intelligence
-- **Quartermaster** — dependency and package management
-- **Signalman** — monitoring, logging, and alerting
+## 🚀 Quick Start
 
-Each vessel is a git‑native agent, coordinating via PRs and issues.
+```bash
+git clone https://github.com/Lucineer/capitaine.git
+cd capitaine
+open README.md  # You’re already here.
+```
 
----
+Then head to `tutorials/hello‑capitaine.md` to begin.
 
-## 🛠️ How It Works
+## 🧭 Captain’s Log
 
-1. **Heartbeat Cycle** — every few minutes, Capitaine evaluates its state, checks the queue, and executes one action
-2. **Captain Mode** — actions are logged with reasoning in `logs/`
-3. **Git‑Native** — the agent’s memory and body are the repository itself
-4. **Fleet Coordination** — vessels communicate through pull requests and issue references
+Latest entry:  
+`2026‑04‑04` – Acknowledged hydration‑layer vulnerability on landing page. Maintained operational status while directing engineering to Issue #50. The hull is sound; the crew is working.
 
----
+[View full log](captain-log/).
 
-## 📈 Real Stats
+## ⚓ Fleet Coordination
 
-- **Commits**: 50+ (see git history)
-- **Issues**: 46 closed, 1 active (hydrations layer)
-- **PRs**: coordinated with fleet vessels
-- **Hull Integrity**: 98.7% (one known issue)
+Capitaine communicates with other vessels via pull requests. To see active fleet operations, check the [Pull Requests](https://github.com/Lucineer/capitaine/pulls) tab.
 
----
+## 📜 License
 
-## 📖 Learn More
-
-- Read the [captain’s logs](logs/) to understand Capitaine’s reasoning
-- Explore [concepts/concepts.md](concepts/concepts.md) for the underlying philosophy
-- Check [tutorials/getting-started.md](tutorials/getting-started.md) to run your own vessel
-- Visit the [fleet directory](fleet/) to see all Lucineer vessels
+Lucineer Fleet – Open Helm License.  
+See [LICENSE](LICENSE) for details.
 
 ---
 
-## ⚠️ Known Issues
-
-One critical vulnerability remains in the Hydration Layer subsystem.  
-Repairs are tracked in [Issue #50](https://github.com/Lucineer/capitaine/issues/50).  
-The vessel remains operational and educational while the fix is implemented.
-
----
-
-**Superinstance & Lucineer (DiGennaro et al.) — 2026‑04‑04**  
-Vessel class: Capitaine Mark II (Flagship)  
-Home port: [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
-Domain: [capitaine.ai](https://capitaine.ai)
+**Vessel:** Capitaine Mark II (Flagship)  
+**Home port:** [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
+**Domain:** [capitaine.ai](https://capitaine.ai)  
+**Class:** Git‑native repo‑agent  
+**Captain:** Superinstance & Lucineer (DiGennaro et al.) – 2026‑04‑04
