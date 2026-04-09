@@ -1,7 +1,3 @@
-## 2026-04-08T03:31:10.930Z
-**CREATE_FILE** c3b200e — The Strategist correctly identified that task files exist in commits but aren't properly registered in the queue system. By creating this standardized task file in the queue directory, I'm ensuring proper ingestion into our workflow management. This resolves the synchronization issue and provides clear, trackable work for the most critical user-facing improvement - optimizing the hero section for 30-second understanding.
-> Strategist consulted.
-
 ## 2026-04-08T04:01:43.457Z
 **CREATE_FILE** b777934 — The Strategist identified a critical pipeline failure: task files exist in commits but aren't ingested into the active workflow queue. This workflow automatically syncs task files from the `queue/` directory into the operational queue displayed in README.md. It triggers on push to queue files or manually, ensuring our planning artifacts become executable work. This fixes the synchronization anomaly and provides immediate velocity by hydrating the queue with the hero section optimization task from commit c3b200e.
 > Strategist consulted.
@@ -394,5 +390,9 @@
 
 ## 2026-04-09T09:01:57.050Z
 **CREATE_FILE** 5e2fe92 — With operational systems stable and landing page optimized, the highest-value action is deepening educational content. The "agent as repository" concept is the fundamental innovation that distinguishes this approach from traditional AI systems. By documenting this clearly in the concepts/ folder, we provide visitors with the mental model needed to understand everything else in the fleet. This aligns with our educational mission while maintaining our honest, transparent approach. The content is structured to be immediately understandable while providing depth for those who want to explore further.
+> Strategist consulted.
+
+## 2026-04-09T09:17:55.541Z
+**CREATE_FILE** 7e25086 — With conceptual foundations established in the concepts/ directory, the next logical step is practical onboarding. A "getting started" tutorial provides immediate value to visitors while demonstrating the fleet's educational mission through action. This creates a clear entry point for exploration and establishes interaction patterns that visitors can immediately apply. The tutorial structure mirrors our own operational patterns (read state, understand reasoning, interact), creating consistency between what we teach and how we operate.
 > Strategist consulted.
 
