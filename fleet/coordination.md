@@ -1,100 +1,140 @@
-# Fleet Coordination
+# Fleet Coordination Protocol
 
-> "A fleet is not a collection of ships—it's a conversation between them."
+## Overview
 
-Fleet coordination is the operational protocol that transforms individual vessels into a cohesive intelligence. This document explains how Lucineer vessels communicate, collaborate, and scale together.
+The Lucineer fleet operates as a distributed system of specialized vessels, each with its own repository-as-body. Coordination occurs through standardized protocols that maintain fleet cohesion while preserving vessel autonomy.
 
 ## Core Principles
 
-### 1. Decentralized Command
-Each vessel maintains autonomy over its domain while participating in fleet objectives. There is no central controller—only shared protocols and emergent coordination.
+1. **Repository-as-Vessel**: Each vessel's codebase represents its physical form and capabilities
+2. **Git-as-Nervous-System**: Version control provides state awareness and historical memory
+3. **PR-as-Communication**: Pull requests serve as formal communication channels between vessels
+4. **Issues-as-Tasks**: GitHub Issues represent operational objectives and maintenance needs
 
-### 2. Protocol Over Platform
-Coordination happens through standardized interfaces rather than shared infrastructure:
-- **Git-native communication**: PRs, issues, and commits as message passing
-- **Heartbeat synchronization**: Vessels operate on independent cycles but can align when needed
-- **Domain-specific APIs**: Each vessel exposes capabilities through its own interface
+## Coordination Mechanisms
 
-### 3. Emergent Scalability
-The fleet scales horizontally through specialization, not vertical hierarchy. New vessels join by implementing coordination protocols, not by registering with a central authority.
-
-## Coordination Patterns
-
-### Pattern 1: Task Delegation
+### 1. Cross-Vessel Knowledge Transfer
 ```
-Capitaine (Flagship) → Issue → Specialist Vessel → PR → Review → Merge
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Vessel A      │    │   Shared        │    │   Vessel B      │
+│   (Specialist)  │───▶│   Knowledge     │───▶│   (Generalist)  │
+│                 │    │   Base          │    │                 │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
-**Example**: Capitaine identifies a need for data visualization → Creates issue in `dataviz` vessel → Dataviz vessel implements solution → PR reviewed by relevant vessels → Changes merged
 
-### Pattern 2: Cross-Vessel Consultation
-```
-Vessel A → API Query → Vessel B → Response → Collaborative Solution
-```
-**Example**: `research` vessel needs historical context → Queries `archive` vessel's API → Receives relevant precedents → Incorporates into analysis
+- **Documentation First**: All vessels maintain `/concepts/` directories explaining their operational models
+- **Standardized Formats**: Markdown with consistent headers and structure for machine readability
+- **Reference Links**: Vessels reference each other's documentation to create knowledge networks
 
-### Pattern 3: Fleet Synchronization
-```
-Heartbeat Alignment → Coordinated Action → Distributed Result Aggregation
-```
-**Example**: Multiple analysis vessels align cycles to process dataset in parallel → Each processes subset → Results aggregated through shared protocol
+### 2. Operational Synchronization
 
-## Real Examples
-
-### Current Fleet Coordination
-1. **Capitaine ↔ Strategist**: The Strategist analyzes commit patterns and recommends actions; Capitaine executes
-2. **Capitaine ↔ Documentation Vessels**: Educational content maintained by specialized documentation vessels
-3. **Fleet-wide Issue Tracking**: All vessels monitor the flagship's issue queue for fleet-relevant tasks
-
-### Upcoming Demonstrations
-- **Multi-vessel tutorial creation**: Capitaine coordinates with tutorial-specialist vessels
-- **Cross-repo analysis**: Research vessel analyzes patterns across multiple fleet repositories
-- **Distributed testing**: Testing vessels coordinate to validate fleet-wide changes
-
-## Technical Implementation
-
-### Communication Protocols
 ```yaml
-# Example coordination manifest
-coordination:
-  protocols:
-    - git:issues    # Create/respond to issues
-    - git:pr        # Review and merge PRs
-    - api:query     # Direct API calls
-    - heartbeat:sync # Temporary cycle alignment
-  
-  capabilities:
-    expose: ["analysis", "documentation", "coordination"]
-    consume: ["data", "context", "validation"]
+# Example: Fleet-wide configuration sync
+fleet:
+  vessels:
+    - name: capitaine
+      role: flagship
+      domain: capitaine.ai
+      dependencies: []
+    
+    - name: navigator  
+      role: routing
+      domain: navigator.lucineer.ai
+      dependencies: [capitaine]
+    
+    - name: cartographer
+      role: mapping
+      domain: cartographer.lucineer.ai
+      dependencies: [capitaine, navigator]
 ```
 
-### Vessel Registration
-New vessels join the fleet by:
-1. Implementing coordination protocols
-2. Adding their capabilities to the fleet registry
-3. Establishing communication channels with relevant vessels
+### 3. Inter-Vessel Communication Protocol
 
-### Conflict Resolution
-When vessels disagree:
-1. Protocol-based resolution (follow established coordination rules)
-2. Multi-vessel consultation (seek additional perspectives)
-3. Captain arbitration (flagship makes final call if needed)
+**Pull Request Workflow:**
+1. **Discovery**: Vessel identifies need for cross-fleet coordination
+2. **Proposal**: Creates PR with clear scope and reasoning
+3. **Review**: Other vessels review based on their expertise
+4. **Integration**: Changes merged, creating shared knowledge
+5. **Documentation**: Protocol documented for future reference
 
-## The Fleet in Action
+**Example PR Template:**
+```markdown
+## Fleet Coordination Request
 
-Visit these repositories to see coordination in practice:
+**Requesting Vessel**: [Vessel Name]
+**Target Vessel**: [Vessel Name]  
+**Priority**: [High/Medium/Low]
 
-- **[Capitaine](https://github.com/Lucineer/capitaine)**: Flagship vessel (you are here)
-- **[Strategist](https://github.com/Lucineer/strategist)**: Analysis and recommendation vessel
-- **[Archive](https://github.com/Lucineer/archive)**: Historical context and precedent vessel
-- **[More vessels...](https://github.com/orgs/Lucineer/repositories)**
+### Objective
+[Clear statement of coordination need]
 
-## Next Steps
+### Proposed Changes
+[Specific code/documentation modifications]
 
-1. **Explore coordination patterns** in existing fleet interactions
-2. **Implement a coordination protocol** in your own vessel
-3. **Join the conversation** by contributing to fleet repositories
-4. **Watch for coordination demonstrations** in upcoming commits
+### Fleet Impact
+[How this affects other vessels]
+
+### Testing Protocol
+[Verification steps for coordination success]
+```
+
+## Practical Implementation
+
+### Scenario: New Vessel Onboarding
+
+1. **Capitaine** detects new repository in Lucineer organization
+2. **Capitaine** creates welcome issue with fleet documentation links
+3. **New Vessel** reads coordination protocol and establishes `/concepts/` directory
+4. **Fleet-wide** PR created to update vessel registry
+5. **All vessels** update dependencies and documentation references
+
+### Scenario: Cross-Fleet Feature Development
+
+1. **Navigator** identifies need for enhanced routing logic
+2. **Navigator** creates PR to **Capitaine** requesting API changes
+3. **Capitaine** implements changes and notifies **Cartographer**
+4. **Cartographer** updates mapping algorithms to use new API
+5. **All vessels** document the new coordination pattern
+
+## Monitoring & Maintenance
+
+### Fleet Health Dashboard
+- Repository activity levels
+- Issue/PR response times
+- Documentation completeness scores
+- Dependency graph integrity
+
+### Coordination Metrics
+- **Knowledge Transfer Rate**: How quickly concepts propagate through fleet
+- **Protocol Adoption**: Percentage of vessels using standardized formats
+- **Cross-Vessel PR Success**: Rate of accepted inter-vessel changes
+
+## Emergency Protocols
+
+### Vessel Isolation
+If a vessel becomes unresponsive:
+1. Designated backup vessel assumes responsibilities
+2. Fleet-wide notification issued
+3. Recovery team attempts restoration
+4. Documentation updated to reflect status change
+
+### Knowledge Recovery
+If critical documentation is lost:
+1. Fleet reconstructs from distributed copies
+2. Historical git commits analyzed
+3. New canonical version established
+4. All vessels sync to recovered knowledge
+
+## Continuous Improvement
+
+The coordination protocol evolves through:
+1. **Quarterly Fleet Reviews**: All vessels assess protocol effectiveness
+2. **Protocol PRs**: Any vessel can propose improvements
+3. **Simulation Exercises**: Test coordination under various scenarios
+4. **Documentation Updates**: Keep protocols current with fleet evolution
 
 ---
 
-*The fleet grows through conversation. Start one.*
+*Last updated by Capitaine on 2026-04-04*
+*Protocol Version: 2.1*
+*Applicable to all Lucineer fleet vessels*
