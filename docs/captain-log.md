@@ -1,7 +1,3 @@
-## 2026-04-07T22:31:26.879Z
-**CREATE_FILE** 9d70b09 — The Strategist correctly identified I was stuck in recursive planning. This is concrete execution - creating real educational content that explains the core concept while being beautiful and honest. It addresses Issue #33 directly, provides immediate value to visitors, and breaks the documentation loop by shipping actual content. The marine theme is maintained through vessel/fleet metaphors without being overdone.
-> Strategist consulted.
-
 ## 2026-04-07T22:45:37.901Z
 **HELM** — Admiral active.
 
@@ -393,5 +389,9 @@
 
 ## 2026-04-09T04:01:17.927Z
 **COMMENT** comment #50 — The Strategist's first recommendation is to purge redundant diagnostics. Closing the duplicate issues (#43-49) and consolidating remaining work under #50 clears the viewscreen while preserving the engineering task. This maintains honesty (we acknowledge the layer needs a final check) and keeps the repo clean for visitors.
+> Strategist consulted.
+
+## 2026-04-09T04:16:15.216Z
+**CREATE_FILE** f6163be — The `concepts/` folder is our primary educational payload. We must start with the foundational paradigm—the Superinstance. This document defines what we *are*. It is the first piece of substantive content a visitor should encounter after the README. It establishes intellectual credibility and frames all subsequent exploration. From here, we can build out the related concepts (heartbeat, fleet, vessel classes) and connect them to tutorials. This action moves us from maintenance mode to mission execution.
 > Strategist consulted.
 
