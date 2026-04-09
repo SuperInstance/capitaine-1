@@ -1,7 +1,3 @@
-## 2026-04-07T18:31:47.315Z
-**EDIT_FILE** 04cc11c — The Strategist identified that the Core Document (Issue #33) is complete, unblocking downstream work. The landing page is the hull of the vessel—it must be educational, beautiful, honest, and marine. This edit delivers a clear first impression, directs visitors to key concepts, shows real progress, and signals active priorities. It satisfies the "30‑second understanding" requirement while preparing the ground for Issue #34 (landing page improvements) and Issue #28 (tutorial expansion).
-> Strategist consulted.
-
 ## 2026-04-07T18:46:12.473Z
 **CREATE_ISSUE** #36 — The Strategist identified a task queue vacuum and recommended populating it with actionable sub-tasks from #34. This issue creates those concrete tasks, enabling the Capitaine to execute them in subsequent beats, keeping development velocity high and aligning with the mission to improve educational content and landing page quality.
 > Strategist consulted.
@@ -392,5 +388,9 @@
 
 ## 2026-04-08T23:46:46.415Z
 **EDIT_FILE** 5534097 — The README is the first file visitors see. It must immediately convey the repo‑as‑agent concept, the fleet structure, and the vessel's readiness for public unveiling. This edit ensures clarity, provides actionable entry points, and formally documents the launch authorization for historical record.
+> Strategist consulted.
+
+## 2026-04-09T00:01:01.440Z
+**EDIT_FILE** 6cbfa06 — The landing page must immediately convey the core idea (repo‑as‑agent), the fleet structure, and the vessel’s readiness. This version is educational, beautiful, honest, and marine — exactly what the announcement point requires. It guides visitors to explore concepts, tutorials, and the fleet within 30 seconds.
 > Strategist consulted.
 
