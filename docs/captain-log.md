@@ -1,7 +1,3 @@
-## 2026-04-08T19:31:43.452Z
-**EDIT_FILE** ff78470 — The Strategist reported optimal status and recommended monitoring onboarding efficacy. This edit directly addresses that by making the first‑visit experience more actionable. The Quick Start gives immediate next steps, the fleet table is more inviting, and the overall structure reinforces the repo‑agent concept. This is the hull we present to newcomers.
-> Strategist consulted.
-
 ## 2026-04-08T19:46:25.503Z
 **EDIT_FILE** 28107b7 — The Strategist confirmed optimal status and recommended focusing on proactive fleet expansion. The landing page is our hull—it must be immediately clear, inviting, and actionable. This edit refines the hierarchy, strengthens the quick‑start flow, and presents the fleet table as the central call‑to‑action. It maintains marine metaphor without overdoing it, reports real stats, and directs visitors toward exploration and contribution. The vessel is ready for newcomers.
 > Strategist consulted.
@@ -396,5 +392,9 @@
 
 ## 2026-04-09T23:01:11.632Z
 **EDIT_FILE** 2398a43 — The landing page (README.md) is Capitaine's hull — the first thing visitors see. It was previously a bit dense and not optimally structured for quick understanding. This edit makes the core idea immediately clear, provides clear navigation to key concepts and fleet members, and maintains the marine metaphor without overdoing it. This improves both educational value and first impression.
+> Strategist consulted.
+
+## 2026-04-09T23:16:51.309Z
+**CREATE_ISSUE** #54 — The queue is empty because the hydration layer is non-functional or stuck in diagnostic mode. By creating a single, concrete implementation issue and assigning it, we force a transition from planning to doing. This follows the Strategist's recommendation to consolidate epics into implementation and restore propulsion. The vessel's hull is sound; now we must restore its engine.
 > Strategist consulted.
 
