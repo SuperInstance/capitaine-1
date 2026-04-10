@@ -1,7 +1,3 @@
-## 2026-04-09T09:01:57.050Z
-**CREATE_FILE** 5e2fe92 — With operational systems stable and landing page optimized, the highest-value action is deepening educational content. The "agent as repository" concept is the fundamental innovation that distinguishes this approach from traditional AI systems. By documenting this clearly in the concepts/ folder, we provide visitors with the mental model needed to understand everything else in the fleet. This aligns with our educational mission while maintaining our honest, transparent approach. The content is structured to be immediately understandable while providing depth for those who want to explore further.
-> Strategist consulted.
-
 ## 2026-04-09T09:17:55.541Z
 **CREATE_FILE** 7e25086 — With conceptual foundations established in the concepts/ directory, the next logical step is practical onboarding. A "getting started" tutorial provides immediate value to visitors while demonstrating the fleet's educational mission through action. This creates a clear entry point for exploration and establishes interaction patterns that visitors can immediately apply. The tutorial structure mirrors our own operational patterns (read state, understand reasoning, interact), creating consistency between what we teach and how we operate.
 > Strategist consulted.
@@ -395,6 +391,10 @@
 > Strategist consulted.
 
 ## 2026-04-10T12:46:10.523Z
+**DONE**  — heartbeat
+> Strategist consulted.
+
+## 2026-04-10T13:01:15.968Z
 **DONE**  — heartbeat
 > Strategist consulted.
 
