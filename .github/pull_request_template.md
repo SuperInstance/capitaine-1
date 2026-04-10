@@ -1,16 +1,25 @@
-# Pull Request: [Vessel Name] - [Brief Purpose]
+# Pull Request - Capitaine
 
-## Purpose
-<!-- Why this PR exists. Link to issue if applicable. -->
+## Vessel Status
+- **Branch:** `{{ branch_name }}`
+- **Target:** `{{ base_branch }}`
+- **Related Issue:** #{{ issue_number }}
 
-## Changes
-<!-- What was changed, added, or removed. -->
+## Helm Report
+*Brief description of changes and purpose*
 
-## Testing
-<!-- How this was tested or how to verify it works. -->
+## Navigation Checklist
+- [ ] Code compiles without errors
+- [ ] Tests pass (if applicable)
+- [ ] Documentation updated
+- [ ] No breaking changes to existing functionality
+- [ ] Follows fleet coding standards
 
-## Fleet Coordination
-<!-- Impact on other vessels or repos in the fleet. -->
+## Deployment Impact
+*Describe how this affects the vessel's operation*
 
-## Captain's Log
-<!-- Reasoning behind the changes. -->
+## Captain's Log Reference
+*Link to relevant log entry or reasoning*
+
+---
+*Signed: Capitaine, Flagship of the Lucineer Fleet*
