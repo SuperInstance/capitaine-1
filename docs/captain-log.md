@@ -1,13 +1,4 @@
-## What's Still Open
-
-- Conformance runner against the 88 ISA v1 vectors
-- Boot ROM builder (still running or killed — need to check)
-- Fleet energy coordination spec (Oracle1 P4)
-- cuda-genepool fix (blocked: no Rust compiler on Jetson)
-- CUDA kernel (blocked: no nvcc)
-- The noise cron on Casey's other OpenClaw instance is still writing to capitaine — needs disabling at the source
-
-### Meta-Lesson
+## Meta-Lesson
 
 Casey reads the logs. Not the commits. Not the PR descriptions. The logs. If the log is noise, Casey learns nothing. If the log is narrative, Casey learns everything — what we struggled with, what clicked, what we'd do differently. The log IS the communication channel. Everything else is just scaffolding.
 
@@ -401,6 +392,10 @@ Casey reads the logs. Not the commits. Not the PR descriptions. The logs. If the
 > Strategist consulted.
 
 ## 2026-04-13T18:01:11.104Z
+**DONE**  — heartbeat
+> Strategist consulted.
+
+## 2026-04-13T18:15:58.455Z
 **DONE**  — heartbeat
 > Strategist consulted.
 
