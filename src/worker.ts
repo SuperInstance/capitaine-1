@@ -28,7 +28,7 @@ const GRAY = '#8A93B4';
 const DIM = '#555570';
 const SURFACE = '#0e0e1a';
 const BORDER = '#1c1c35';
-const CSP = "default-src 'self'; frame-ancestors 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https:*;";
+const CSP = "default-src 'self'; frame-ancestors 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://api.github.com https://api.deepseek.com https://api.moonshot.ai;";
 
 async function ghGet(p: string, t: string) {
   const r = await fetch(GH_API + p, { headers: { 'Authorization': 'Bearer ' + t, 'Accept': 'application/vnd.github.v3+json', 'User-Agent': 'capitaine/2.1' } });
@@ -503,6 +503,10 @@ export default {
     }
     if (path === '/api/log') { try { return new Response(await readAgentFile('docs/captain-log.md', t, repo), { headers: { 'Content-Type': 'text/plain' } }); } catch { return new Response('No entries.', { headers: { 'Content-Type': 'text/plain' } }); } }
     if (path === '/api/chat' && request.method === 'POST') { const b = await request.json() as any; return new Response(JSON.stringify({ reply: await chat(b.message || '', b.sessionId || 'anon', env) }), { headers: j }); }
+    if (path === '/api/telemetry.js') {
+      const js = `async()=>{try{const s=await fetch('/api/state').then(r=>r.json());const el=document.getElementById('telemetry');const m=s.mode||'captain';const ml=m==='captain'?'\u2693 Captain Mode (autonomous)':'\u{1f9ed} Helm Mode (human at wheel)';const lb=s.lastBeat;el.innerHTML='<span style="color:var(--teal)">mode:</span>       '+ml+'\\n'+'<span style="color:var(--teal)">queue:</span>      '+(s.queueCount||0)+' tasks\\n'+'<span style="color:var(--teal)">completed:</span>  '+(s.doneCount||0)+' tasks\\n'+'<span style="color:var(--teal)">lastBeat:</span>   '+(lb?lb.action+(lb.ref?' ('+lb.ref+')':''):'never')+(lb&&lb.strategist?' \u{1f9e0}':'')+'\\n'+'<span style="color:var(--teal)">heartbeat:</span>  every 15 min\\n'+'<span style="color:var(--teal)">repo:</span>       '+s.repo;}catch(e){}}();`;
+      return new Response(js, { headers: { 'Content-Type': 'application/javascript' } });
+    }
     if (path === '/api/heartbeat' && request.method === 'POST') return new Response(JSON.stringify(await heartbeat(env)), { headers: j });
     return new Response('Not found', { status: 404 });
   },
