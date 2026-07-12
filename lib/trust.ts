@@ -1,4 +1,3 @@
-```typescript
 /**
  * Trust Engine
  * 
@@ -162,4 +161,3 @@ export class TrustEngine {
 
 // Singleton instance
 export const trustEngine = new TrustEngine();
-```

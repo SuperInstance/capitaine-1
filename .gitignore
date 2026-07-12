@@ -1,5 +1,38 @@
+# Dependencies
 node_modules/
+
+# Cloudflare
 .wrangler/
-.agent/done
+.dev.vars
+
+# Build artifacts
+dist/
+build/
 target/
 Cargo.lock
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test artifacts
+coverage/
+.nyc_output/
+*.lcov
+
+# Agent state (keep identity/next, ignore transient)
+.agent/done
+.agent/.tmp*
+
+# Queue state (transient)
+.queue/state.json
