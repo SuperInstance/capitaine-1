@@ -1,23 +1,21 @@
 {
-  "name": "cocapn-vessel",
+  "name": "capitaine",
   "version": "0.1.0",
-  "description": "A git-native repo-agent vessel",
-  "main": "index.js",
+  "description": "A git-native repo-agent vessel — the repo IS the agent",
+  "main": "src/worker.ts",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "jest"
+    "start": "wrangler dev",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "bash tests/run-all.sh"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "node-fetch": "^2.6.9",
-    "simple-git": "^3.22.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^29.7.0",
-    "nodemon": "^3.0.1"
+    "@cloudflare/workers-types": "^4.0.0",
+    "tsx": "^4.0.0",
+    "wrangler": "^3.0.0"
   },
-  "keywords": ["git", "agent", "vessel", "cocapn"],
-  "author": "Superinstance & Lucineer",
+  "keywords": ["git", "agent", "vessel", "capitaine", "cloudflare-workers"],
+  "author": "SuperInstance & Lucineer",
   "license": "MIT"
 }
